@@ -193,14 +193,23 @@
   },
   "publications": {
     "books": [
+      { "authors": "Arti Noor, Kriti Saroha, Emil Pricop, Abhijit Sen, Gaurav Trivedi", "title": "Emerging Trends and Technologies on Intelligent Systems", "venue": "Advances in Intelligent Systems and Computing, LNNS, Vol.730", "year": "2024" },
+      { "authors": "Arti Noor, Kriti Saroha, Emil Pricop, Abhijit Sen, Gaurav Trivedi", "title": "Emerging Trends and Technologies on Intelligent Systems", "venue": "Advances in Intelligent Systems and Computing, LNNS, Vol.1073", "year": "2024", "note": "Available December 2024" },
+      { "authors": "Arti Noor, Abhijit Sen, Gaurav Trivedi", "title": "Emerging Trends and Technologies on Intelligent Systems", "venue": "Advances in Intelligent Systems and Computing, Vol.1371", "year": "2022", "isbn": "978-981-16-3096-5" },
+      
       {
         "authors": "Gaurav Trivedi",
         "title": "An Introduction To Circuit Simulation",
         "venue": "STUDY (Innovation of bachelor STUDY programs at the Faculty of Electrical Engineering and Informatics of the University of Pardubice)",
         "note": "No. CZ 1.07/2.2.00/28.0125"
       }
+      
+      
     ],
     "bookChapters": [
+      { "authors": "P. Tiwari, P. Mahanta, G. Trivedi", "title": "DNN Based Short Term Load Forecasting of Individual Household with Real and Synthetic Data-Set", "venue": "Advanced Machine Intelligence and Signal Processing, Lecture Notes in Electrical Engineering, vol 858", "year": "2022", "pages": "789-800", "doi": "10.1007/978-981-19-0840-8_61" },
+      { "authors": "Praveen Tiwari et al.", "title": "GUI-Based Secure Architecture Design for Distributed Community Micro-grid", "venue": "Electronic Systems and Intelligent Computing, Lecture Notes in Electrical Engineering, vol 686", "year": "2021", "pages": "685-696", "doi": "10.1007/978-981-15-7031-5_65" },
+      { "authors": "Sushanta Bordoloi, Ashok Kumar Ray, Gaurav Trivedi", "title": "Simulation framework for GaN devices with special mention to reliability concerns", "venue": "VLSI and Post-CMOS Devices, IET", "year": "2020", "doi": "10.1049/PBCS073G_ch4" },
       {
         "authors": "S. Hussain, R. Kumar and Gaurav Trivedi",
         "title": "Resolution Selective 2 to 6-bit Flash ADC in 45nm Technology",
@@ -231,8 +240,11 @@
         "venue": "Brain Storm Optimization Algorithms: Concepts, Principles, and Applications. Springer Book Series.",
         "year": ""
       }
+     
     ],
     "patents": [
+      { "inventors": "Gaurav Trivedi, Bikram Paul, Sushree Sila P. Goswami, et al.", "title": "Generic multicore processor with multi co-processors and multiple I/Os arranged in a honeycomb structure with AI capabilities", "status": "Published" },
+      { "inventors": "Gaurav Trivedi, Smarajit Das, Sqn Ldr Vijay Sengar", "title": "Autonomous Air to Air Refueling Avionics System using Convolution Neural Networks", "status": "Published" },
       {
         "inventors": "Gaurav Trivedi, Bikram Paul et al.",
         "title": "Generic multicore processor with multi co-processors and multiple I/Os arranged in a honeycomb structure with artificial intelligence capabilities",
@@ -269,8 +281,19 @@
         "number": "TIFAC Ref. No: T.I.(88)/TIFA/2013",
         "status": "Submitted"
       }
+     
     ],
     "journals": [
+      { "authors": "S. M. Mishra, H. S. Shekhawat, J. Pidanic and G. Trivedi", "title": "FPGA-Based Adaptive LIF Neuron for High-Speed, Energy-Efficient Spiking Neural Network", "venue": "IEEE Transactions on Circuits and Systems for Artificial Intelligence", "year": "2025", "doi": "10.1109/TCASAI.2025.3568365" },
+      { "authors": "B. Boro, R. Parmar and G. Trivedi", "title": "Vector-Matrix Multiplier Architecture for In-Memory Computing Applications with RRAM Arrays", "venue": "IEEE Transactions on Nanotechnology", "year": "2025", "volume": "24", "pages": "249-259", "doi": "10.1109/TNANO.2025.3560912" },
+      { "authors": "A. D. Roshan, P. Guha and G. Trivedi", "title": "Hardware-Optimized Regression Tree-Based Sigmoid and Tanh Functions for Machine Learning Applications", "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs", "year": "2024", "doi": "10.1109/TCSII.2024.3485493" },
+      { "authors": "M. Janveja et al.", "title": "A Low-Power Co-Processor to Predict Ventricular Arrhythmia for Wearable Healthcare Devices", "venue": "IEEE Transactions on VLSI Systems", "year": "2024", "volume": "32", "issue": "9", "pages": "1672-1683", "doi": "10.1109/TVLSI.2024.3413584" },
+      { "authors": "R. Parmar et al.", "title": "An SNN-Inspired Area- and Power-Efficient VLSI Architecture of Myocardial Infarction Classifier for Wearable Devices", "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs", "year": "2024", "volume": "71", "issue": "6", "pages": "3191-3195", "doi": "10.1109/TCSII.2024.3355016" },
+      { "authors": "Chakraborty, B., Borgohain, M.M., Saikia, E. et al.", "title": "First-Principles Study of the Electronic and Optical Properties of Sn-BeO Heterostructure", "venue": "J. Electron. Mater.", "year": "2024", "doi": "10.1007/s11664-024-11031-x" },
+      { "authors": "A. Dongre, B. Boro and G. Trivedi", "title": "ADC-Less Reprogrammable RRAM Array Architecture for In-Memory Computing", "venue": "IEEE Transactions on VLSI Systems", "year": "2023", "volume": "31", "issue": "12", "pages": "2053-2060" },
+      { "authors": "M. Janveja et al.", "title": "An Optimized Low-Power VLSI Architecture for ECG/VCG Data Compression for IoHT Wearable Device Application", "venue": "IEEE Transactions on VLSI Systems", "year": "2023", "volume": "31", "issue": "12", "pages": "2008-2015", "doi": "10.1109/TVLSI.2023.3314611" },
+      { "authors": "S. S. P. Goswami and G. Trivedi", "title": "FPGA Implementation of Modified SNOW 3G Stream Ciphers Using Fast and Resource Efficient Substitution Box", "venue": "IEEE Embedded Systems Letters", "year": "2023", "volume": "15", "issue": "4", "pages": "238-241", "doi": "10.1109/LES.2023.3298743" },
+      { "authors": "A. Dongre and G. Trivedi", "title": "Variation Tolerant RRAM Based Synaptic Architecture for On-Chip Training", "venue": "IEEE Transactions on Nanotechnology", "year": "2023", "volume": "22", "pages": "436-444", "doi": "10.1109/TNANO.2023.3298962" },
       { "authors": "Sukanta Dey, Sukumar Nandi, and Gaurav Trivedi", "title": "PGOpt: Multi-objective Design Space Exploration Framework for Large-Scale On-Chip Power Grid Design in VLSI SoC using Evolutionary Computing Technique", "venue": "Microprocessors and Microsystems", "year": "2020 (Accepted)" },
       { "authors": "N. Y. Meitei, K. L. Baisnab, and Gaurav Trivedi", "title": "A new 3D-IC partitioning method based on Genetic Algorithm", "venue": "IET Circuits, Devices & Systems", "year": "July 2020 (Accepted)" },
       { "authors": "A. G. Berihu, Pinakeswar Mahanta, and Gaurav Trivedi", "title": "Thermal performance evaluation of multi-tube cylindrical LHS system", "venue": "Applied Thermal Engineering, Elsevier", "year": "June 2020 (Accepted)" },
@@ -291,6 +314,7 @@
       { "authors": "Praveen Tiwari et al.", "title": "A Review on Microgrid Based on Hybrid Renewable Energy Sources in South-Asian Perspective", "venue": "Technology and Economics of Smart Grids and Sustainable Energy, Springer", "year": "July 2017" },
       { "authors": "Sameer Pawanekar, Kalpesh Kapoor, Gaurav Trivedi", "title": "NAP: A Nonlinear Hypergraph Partitioning Method", "venue": "IETE Journal of Research, Taylor & Francis, pp. 60-70", "year": "October 2016" },
       { "authors": "Hemangee K. Kapoor, G. Bhoopal Rao, Sharique Arshi and Gaurav Trivedi", "title": "A Security Framework for NoC Using Authenticated Encryption and Session Keys", "venue": "Circuits, Systems and Signal Processing, Springer. DOI 10.1007/s00034-013-9568-5", "year": "February 2013" }
+      
     ],
     "conferences": [
       { "authors": "Berihu Gebreyohannes Abreha, Pinakeswar Mahanta, and Gaurav Trivedi", "title": "Performance improvement techniques in shell-and-tube type of LHS", "venue": "Int. Conference on Recent Trends in Thermo-fluids and Renewable Energy, Arunachal Pradesh", "year": "Nov 2020 (Accepted)" },
@@ -323,6 +347,38 @@
   },
   "projects": {
     "sponsored": [
+      {
+        "title": "AI-enabled Advanced Aquaponics Ecosystem for Community Self-reliance",
+        "joint": "Jointly with Dept. of Biotechnology and local collaborators",
+        "agency": "(see project documents for funding agency)",
+        "duration": "3 years",
+        "status": "Ongoing",
+        "note": "Interdisciplinary project focusing on AI for sustainable aquaponics"
+      },
+      {
+        "title": "Low-Power Co-Processor for Ventricular Arrhythmia Prediction",
+        "joint": "Jointly with biomedical and VLSI collaborators",
+        "agency": "Internal/External Funding",
+        "duration": "2 years",
+        "status": "Ongoing",
+        "note": "Hardware accelerator for arrhythmia detection in wearable devices"
+      },
+      {
+        "title": "ADC-less Reprogrammable RRAM Array Architecture for In-Memory Computing",
+        "joint": "Internal collaborators",
+        "agency": "Research Grant",
+        "duration": "2 years",
+        "status": "Ongoing",
+        "note": "Focus on RRAM arrays and in-memory compute architectures"
+      },
+      {
+        "title": "Optimized Low-Power VLSI Architectures for Biomedical Signal Compression",
+        "joint": "Jointly with Dr. Prithwijit Guha and biomedical partners",
+        "agency": "Industry/Academic Collaboration",
+        "duration": "2 years",
+        "status": "Approved",
+        "note": "ECG/VCG compression for IoHT wearable applications"
+      },
       {
         "title": "Reducing Cache Access Time in Tiled Chip Multiprocessors",
         "joint": "Jointly with Dr. Hemangee K. Kapoor, CSE Department, IIT Guwahati",
@@ -409,6 +465,23 @@
         "agency": "Pace Stock Broking Services Pvt. Ltd.",
         "duration": "9 Months",
         "status": "Completed"
+      }
+      ,
+      {
+        "title": "IoT-Enabled RC4-Stream-Cipher Edge Data Encryption for Smart Home",
+        "joint": "Joint work with industry collaborators",
+        "agency": "Industry Consultancy",
+        "duration": "1 year",
+        "status": "Completed",
+        "note": "Prototype and deployment for edge encryption"
+      },
+      {
+        "title": "GUI-Based Secure Architecture Design for Distributed Community Micro-grid",
+        "joint": "Academic-Industry collaboration",
+        "agency": "Consultancy",
+        "duration": "1 year",
+        "status": "Completed",
+        "note": "Visualization and secure control for community micro-grids"
       }
     ]
   },
