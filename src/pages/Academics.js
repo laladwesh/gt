@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { use, useState } from 'react';
 import data from '../data/siteData.json';
+import { useNavigate } from 'react-router-dom';
 
 function AccordionSection({ title, children, defaultOpen }) {
   const [open, setOpen] = useState(defaultOpen || false);
@@ -36,6 +37,7 @@ function CourseGroup({ label, courses, color }) {
 export default function Academics() {
   const { academics } = data;
   const supervision = academics.projectSupervision || {};
+  const navigate = useNavigate();
   const phd = supervision.phd || {};
   const mtech = supervision.mtech || {};
   const btech = supervision.btech || {};
@@ -82,7 +84,7 @@ export default function Academics() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
           {statsList.map((s) => (
-            <div key={s.label} className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 text-center hover:shadow-md transition-shadow">
+            <div onClick={navigate('/students')} key={s.label} className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 text-center hover:shadow-md transition-shadow">
               <div className="text-2xl font-bold text-primary-700 mb-1">{s.label}</div>
               <div className="text-xs text-gray-500 leading-relaxed">{s.stats}</div>
             </div>
