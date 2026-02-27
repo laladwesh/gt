@@ -1,0 +1,466 @@
+{
+  "profile": {
+    "name": "Dr. Gaurav Trivedi",
+    "title": "Associate Professor",
+    "department": "Department of Electronics and Electrical Engineering",
+    "institution": "Indian Institute of Technology Guwahati",
+    "email1": "trivedi@iitg.ac.in",
+    "email2": "gaurav.vb.trivedi@gmail.com",
+    "phone": "+91-361 258 2536",
+    "address": "IIT Guwahati \u2013 781039",
+    "skype": "gaurav.vb.trivedi",
+    "officeLocation": "009, Ground Floor EEE Department, IIT Guwahati",
+    "officeHours": "Monday \u2013 Friday: 10:00 AM \u2013 5:00 PM"
+  },
+  "home": {
+    "quote": "Imagination is more important than knowledge.",
+    "quoteAuthor": "Albert Einstein",
+    "researchAreas": [
+      { "iconKey": "zap",        "title": "Circuit Simulation",        "desc": "Analog, RF & Digital" },
+      { "iconKey": "chip",       "title": "VLSI CAD",                  "desc": "EDA & Physical Design" },
+      { "iconKey": "layers",     "title": "Electronics System Design",  "desc": "Embedded & IoT" },
+      { "iconKey": "server",     "title": "Computer Architecture",      "desc": "HPC & Parallel Systems" },
+      { "iconKey": "shield",     "title": "Hardware Security",          "desc": "Cryptography & SoC" },
+      { "iconKey": "atom",       "title": "Semiconductor Devices",      "desc": "Modeling & Simulation" },
+      { "iconKey": "brain",      "title": "Machine Learning",           "desc": "Optimization & AI" },
+      { "iconKey": "globe",      "title": "Embedded Systems & IoT",     "desc": "Smart Systems" }
+    ],
+    "stats": [
+      { "number": "06+", "label": "PhD Scholars Defended" },
+      { "number": "25+", "label": "M.Tech Supervised" },
+      { "number": "67+", "label": "B.Tech Supervised" },
+      { "number": "50+", "label": "Journal Publications" }
+    ],
+    "announcement": {
+      "tag": "Notice",
+      "title": "Online Interview \u2014 AI-enabled Advanced Aquaponics Ecosystem Project",
+      "dateTime": "June 15, 2021 | 9:30 AM onwards",
+      "body": "The online interview for the project entitled \"AI-enabled advanced aquaponics ecosystem for the self-reliance of SC community in Central and Lower Assam\" at the Department of Electronics and Electrical Engineering, IIT Guwahati is scheduled on 15 June 2021 from 09.30 AM onwards.",
+      "note": "Thank you for showing your interest in working for this project. There will be an online interview on 15th June 2021 of the shortlisted candidates after written test.",
+      "instructions": [
+        "Only shortlisted candidates after the written test will be called for the interview.",
+        "The interview link will be sent to your registered email before the interview.",
+        "Please ensure good internet connectivity for the entire day on June 15, 2021.",
+        "Interview coordinators will share a Google Meet link before your interview slot. Please have Google Meet installed.",
+        "Attendance will be marked via photograph \u2014 camera must be ON at all times during the interview.",
+        "Candidates unable to be photographed will be treated as absent."
+      ],
+      "footer": "For the remaining candidates who could not be shortlisted, we wish them very good luck for their future endeavours."
+    }
+  },
+  "qualifications": [
+    {
+      "degree": "Bachelor of Engineering",
+      "field": "Electronics",
+      "institution": "Shri Govindram Seksaria Institute of Technology and Science (SGSITS), Devi Ahilya University, Indore, Madhya Pradesh",
+      "year": "1998"
+    },
+    {
+      "degree": "M.Tech.",
+      "field": "Microelectronics",
+      "institution": "Department of Electrical Engineering, Indian Institute of Technology Bombay, Mumbai",
+      "year": "2000"
+    },
+    {
+      "degree": "PhD",
+      "field": "Electrical Engineering",
+      "institution": "Department of Electrical Engineering, Indian Institute of Technology Bombay, Mumbai",
+      "year": "2007"
+    }
+  ],
+  "experience": [
+    {
+      "period": "June 2018 \u2013 till date",
+      "role": "Associate Professor",
+      "org": "Department of Electronics and Electrical Engineering, IIT Guwahati",
+      "current": true
+    },
+    {
+      "period": "Nov 2011 \u2013 June 2018",
+      "role": "Assistant Professor",
+      "org": "Department of Electronics and Electrical Engineering, IIT Guwahati",
+      "current": false
+    },
+    {
+      "period": "Sep 2009 \u2013 Nov 2011",
+      "role": "Post-Doctoral Fellow",
+      "org": "Electrical Engineering Department, IIT Bombay",
+      "current": false
+    },
+    {
+      "period": "Apr 2008 \u2013 Jul 2009",
+      "role": "Senior Member of Technical Staff",
+      "org": "Berkeley Design Automation India Pvt. Ltd. (Presently Mentor Graphics India Pvt. Ltd.)",
+      "current": false
+    },
+    {
+      "period": "Feb 2007 \u2013 Mar 2008",
+      "role": "Senior Member of Technical Staff",
+      "org": "Cadence Design Systems India Pvt. Ltd.",
+      "current": false
+    },
+    {
+      "period": "Aug 2006 \u2013 Feb 2007",
+      "role": "Senior Research Fellow",
+      "org": "Electrical Engineering Department, IIT Bombay",
+      "current": false
+    }
+  ],
+  "academics": {
+    "ugCourses": [
+      "Semiconductor Devices and Circuits (July\u2013November 2012)",
+      "Introduction to VLSI Design (July\u2013November 2013, 2014, 2018, 2019)",
+      "Basic Electrical Science (May\u2013June 2012)",
+      "Embedded Systems (May\u2013June 2012)",
+      "Analog Circuits Lab (January\u2013April 2012, 2017)",
+      "Basic Electronics Lab (January\u2013April 2012)"
+    ],
+    "pgCourses": [
+      "Digital IC Design (July\u2013November 2013, 2018, 2019)",
+      "VLSI System Design (January\u2013April 2013, 2014, 2015, 2016, 2018, 2019, 2020)",
+      "VLSI IC Technology (July\u2013November 2015, 2016, 2017)",
+      "VLSI Lab-1 (July\u2013November 2012)",
+      "VLSI Lab-3 (January\u2013April 2013, 2014, 2015, 2018, 2019)"
+    ],
+    "electiveCourses": [
+      "Algorithms and Data Structures (July\u2013November 2014, 2015, 2016)",
+      "Introduction to Parallel Computing (July\u2013November 2014, 2015, 2017, 2018, 2019, 2020)",
+      "Fundamentals of VLSI CAD (January\u2013April 2013, 2014, 2015, 2016)(July\u2013November 2016, 2017, 2018, 2019, 2020)"
+    ],
+    "invitedTalks": [
+      { "title": "Introduction to Verilog", "venue": "Indian Institute of Technology Roorkee", "date": "November 2016" },
+      { "title": "FPGA and its Application in Designing Real Time Embedded Systems", "venue": "National Institute of Technology Mizoram", "date": "October 2016" },
+      { "title": "Automation of Analog Layout", "venue": "Semiconductor Laboratory (SCL) Chandigarh", "date": "August 2016" },
+      { "title": "Fundamentals of VLSI CAD, SPICE", "venue": "Punjab Engineering College University", "date": "August 2016" },
+      { "title": "An Introduction to VLSI Design Flow Algorithms", "venue": "Andhra University", "date": "December 2015" },
+      { "title": "Solar Photovoltaic Array Performance Analyzer", "venue": "TEQIP Short Term Course on Solar Energy Conversion and Management, IIT Guwahati", "date": "November 2015" },
+      { "title": "Smart City Intelligent Traffic System", "venue": "Two-days Workshop on IoT, NIT Silchar", "date": "October 2015" },
+      { "title": "Smart Homes", "venue": "Two-day Workshop on IoT, NIT Silchar", "date": "October 2015" },
+      { "title": "VLSI Power Grid Analysis Using Parallel Computing Platforms", "venue": "Semiconductor Lab, Chandigarh", "date": "June 2015" },
+      { "title": "Analog Circuit Optimization Using Network Adjoint Method", "venue": "Semiconductor Lab, Chandigarh", "date": "June 2015" },
+      { "title": "Evolution of Microprocessors", "venue": "ESDM Workshop, Assam Don Bosco University, Guwahati", "date": "March 2015" },
+      { "title": "Solar Photovoltaic Array Performance Analyzer", "venue": "ESDM Workshop, IIT Guwahati", "date": "March 2015" },
+      { "title": "Parallel VLSI Power Grid Simulation", "venue": "KIC-TEQIP Short Term Course, IIT Guwahati", "date": "March 2015" },
+      { "title": "Parallel VLSI Power Grid Simulation", "venue": "Yeshwantrao Chavan College of Engineering (YCCE), Nagpur", "date": "February 2015" },
+      { "title": "Parallel Smart Grid Simulator", "venue": "Yeshwantrao Chavan College of Engineering (YCCE), Nagpur", "date": "February 2015" },
+      { "title": "Fast Circuit Simulation Techniques And Its Applications To VLSI Power Grid Simulation", "venue": "IIT Roorkee", "date": "January 2015" },
+      { "title": "Inside SPICE", "venue": "ANURAG, DRDO, Hyderabad", "date": "November 2014" },
+      { "title": "Smart Grid and Smart Villages", "venue": "University of Pardubice, Czech Republic", "date": "June 2014" },
+      { "title": "IIT Guwahati: Past, Present and Future", "venue": "University of Pardubice, Czech Republic", "date": "May 2014" },
+      { "title": "An Introduction to Computational Biology and Nerve Conduction Analysis", "venue": "SIAM Student Chapter, IIT Guwahati", "date": "April 2014" },
+      { "title": "An Introduction To Device Simulation", "venue": "NERIST, Arunachal Pradesh", "date": "January 2014" },
+      { "title": "Inside SPICE", "venue": "NERIST, Arunachal Pradesh", "date": "January 2014" },
+      { "title": "Parallel VLSI Power Grid Simulation", "venue": "Tezpur University", "date": "December 2013" },
+      { "title": "Fast Circuit Simulation Techniques", "venue": "REVA Institute of Technology and Management, Bangalore", "date": "December 2013" },
+      { "title": "Parallel VLSI Power Grid Simulation", "venue": "NERIST, Arunachal Pradesh", "date": "October 2013" },
+      { "title": "Smart Grid Simulator", "venue": "Walchand College of Engineering, Sangli", "date": "July 2013" },
+      { "title": "Fast Circuit Simulation and its Applications", "venue": "Gujarat Technological University, Ahmedabad", "date": "March 2012" },
+      { "title": "Fast Circuit Simulation and its Applications", "venue": "GIMT Guwahati", "date": "March 2012" },
+      { "title": "Introduction to Computer Architecture", "venue": "C-DAC's Mumbai center, DVLSI program", "date": "June 2015" },
+      { "title": "Introduction of SPICE", "venue": "National Centre for Software Technology Mumbai", "date": "June 2005" },
+      { "title": "SPICE and SEQUEL", "venue": "Fr. Conceicao Rodrigues College of Engineering, Mumbai", "date": "January 2003" },
+      { "title": "SPICE", "venue": "Cadence Design Systems India Pvt. Ltd., Noida", "date": "November 2001" }
+    ],
+    "visitingFaculty": [
+      { "role": "Visiting Faculty", "org": "University of Pardubice, Czech Republic", "period": "May 2019 \u2013 July 2019" },
+      { "role": "Visiting Faculty", "org": "National Institute of Technology Arunachal Pradesh, Yupia", "period": "March 2018" },
+      { "role": "Visiting Faculty", "org": "University of Pardubice, Czech Republic", "period": "November 2017 \u2013 December 2017" },
+      { "role": "Visiting Faculty", "org": "Indian Institute of Information Technology Bhagalpur", "period": "July 2017 \u2013 November 2017" },
+      { "role": "Visiting Faculty", "org": "National Institute of Technology Mizoram, Aizawl", "period": "Nov 2017" },
+      { "role": "Visiting Faculty", "org": "National Institute of Technology Sikkim, Ravangala", "period": "Jan 2017 \u2013 April 2017" },
+      { "role": "Visiting Faculty", "org": "ABV \u2013 IIITM Gwalior, Madhya Pradesh", "period": "April 2015" },
+      { "role": "Visiting Expert", "org": "University of Pardubice, Czech Republic", "period": "May 2014 \u2013 June 2014" }
+    ],
+    "workshops": [
+      { "title": "34th International Conference on VLSI Design (VLSID) 2021", "date": "02 Jan \u2013 07 Jan 2021, Guwahati", "role": "General Co-Chair" },
+      { "title": "24th International Symposium on VLSI Design and Test (VDAT) 2020", "date": "29 June \u2013 02 July 2020, Bhubaneswar", "role": "Advisory Committee Member, Technical Program Committee Co-Chair, Finance Co-Chair" },
+      { "title": "33rd International Conference on VLSI Design (VLSID) 2020", "date": "04 Jan \u2013 08 Jan 2020, Bangalore", "role": "Registration Co-Chair" },
+      { "title": "MAREW 2019", "date": "16 April \u2013 18 April 2019, Pardubice, Czech Republic", "role": "Technical Programme Committee Member" },
+      { "title": "32nd International Conference on VLSI Design (VLSID) 2019", "date": "05 Jan \u2013 09 Jan 2019, Delhi", "role": "Publicity Co-Chair" },
+      { "title": "1st Bharatiya Education Science and Technology (BEST) 2018, IIT Guwahati", "date": "23\u201325 March 2018", "role": "Joint Convener, Organizing Chair, Sponsorship Chair" },
+      { "title": "21st International Symposium on VLSI Design and Test (VDAT) 2017, IIT Roorkee", "date": "29 June \u2013 02 July 2017", "role": "Sponsorship Chair" },
+      { "title": "IESC 2017, NIT Meghalaya", "date": "06\u201307 April 2017", "role": "Publication Chair" },
+      { "title": "1st ICADW 2016, Assam Engineering College Guwahati", "date": "16\u201318 December 2016", "role": "Sponsorship Chair" },
+      { "title": "20th International Symposium on VLSI Design and Test (VDAT) 2016, IIT Guwahati", "date": "24\u201327 May 2016", "role": "Joint Convener, Organizing Chair, Sponsorship Chair" },
+      { "title": "5th IEEE Applied Electromagnetics Conference (AEMC 2015), IIT Guwahati", "date": "18\u201321 December 2015", "role": "Sponsorship Chair" },
+      { "title": "XXVII IUPAP Conference on Computational Physics (CCP2015), IIT Guwahati", "date": "02\u201305 December 2015", "role": "Sponsorship Chair" },
+      { "title": "Workshop on Nvidia GPU Programming and Applications, IIT Guwahati", "date": "September 2014", "role": "Convener" },
+      { "title": "Workshop on Xilinx Design Flow, IIT Guwahati", "date": "November 2013", "role": "Convener" },
+      { "title": "Tech \"Phi\" Drive \u2014 Intel Xeon Phi Workshop, IIT Guwahati", "date": "August 2013", "role": "Convener" },
+      { "title": "Full Semester Course on Parallel Computing (with Dr. Kalpesh Kapoor & Intel)", "date": "July \u2013 November 2012, IIT Guwahati", "role": "Convener" }
+    ]
+  },
+  "publications": {
+    "books": [
+      {
+        "authors": "Gaurav Trivedi",
+        "title": "An Introduction To Circuit Simulation",
+        "venue": "STUDY (Innovation of bachelor STUDY programs at the Faculty of Electrical Engineering and Informatics of the University of Pardubice)",
+        "note": "No. CZ 1.07/2.2.00/28.0125"
+      }
+    ],
+    "bookChapters": [
+      {
+        "authors": "S. Hussain, R. Kumar and Gaurav Trivedi",
+        "title": "Resolution Selective 2 to 6-bit Flash ADC in 45nm Technology",
+        "venue": "Proceedings of the 1st International Conference on Electronic Systems and Intelligent Computing (ESIC 2020). Lecture Notes in Electrical Engineering (LNEE). Springer, Singapore.",
+        "year": "2020"
+      },
+      {
+        "authors": "Sushanta Bordoloi, Ashok Kumar Ray and Gaurav Trivedi",
+        "title": "Simulation framework for GaN devices with special mention to reliability concerns",
+        "venue": "in VLSI and Post-CMOS Devices, Volume 2: Devices, circuits and interconnects, IET.",
+        "year": ""
+      },
+      {
+        "authors": "Sukanta Dey, Sukumar Nandi and Gaurav Trivedi",
+        "title": "PGRDP: Reliability, Delay, and Power-Aware Area Minimization of Large-Scale VLSI Power Grid Network using Cooperative Coevolution",
+        "venue": "in Intelligent Computing Paradigm - Recent Trends, Springer, 2019. DOI 10.1007/978-981-13-7334-3_6",
+        "year": "2019"
+      },
+      {
+        "authors": "Berihu Geberyohannes Abreha, Pinakeswar Mahanta and Gaurav Trivedi",
+        "title": "Numerical modeling and simulation of thermal energy storage for solar cooking using Comsol multiphysics software",
+        "venue": "AIP Conference Proceedings 2091, April 2019. Published by AIP Publishing.",
+        "year": "2019"
+      },
+      {
+        "authors": "Satyabrata Dash, Deepak Joshi, Sukanta Dey, Meenali Janveja and Gaurav Trivedi",
+        "title": "StormOptimus: A single objective constrained optimizer based on brainstorming process for VLSI circuits",
+        "venue": "Brain Storm Optimization Algorithms: Concepts, Principles, and Applications. Springer Book Series.",
+        "year": ""
+      }
+    ],
+    "patents": [
+      {
+        "inventors": "Gaurav Trivedi, Bikram Paul et al.",
+        "title": "Generic multicore processor with multi co-processors and multiple I/Os arranged in a honeycomb structure with artificial intelligence capabilities",
+        "number": "E-2/198/2018/KOL",
+        "status": "Published"
+      },
+      {
+        "inventors": "Gaurav Trivedi, Smarajit Das, Sqn Ldr Vijay Sengar",
+        "title": "Autonomous Air to Air Refueling Avionics System using Convolution Neural Networks",
+        "number": "E-2/258/2018/KOL",
+        "status": "Published"
+      },
+      {
+        "inventors": "Gaurav Trivedi, Swati Shukla, Balbir Singh, Abhishek Agarwal, Bikram Paul",
+        "title": "FPGA based Electromagnetic transient analyzer for the design of EV's charging station",
+        "number": "E-2/274/2018/KOL",
+        "status": "Published"
+      },
+      {
+        "inventors": "Gaurav Trivedi, Anand Bulusu, Aakash Kumar",
+        "title": "Hanumart: Hospitality Amenity Necessity Utility Mart driven by real time person specific demand and supply model and enabled by artificial intelligence",
+        "number": "E-2/265/2018/KOL",
+        "status": "Published"
+      },
+      {
+        "inventors": "Sameer Pawanekar, Kalpesh Kapoor and Gaurav Trivedi",
+        "title": "A Nonlinear Analytical Method and System for Hypergraph Partitioning",
+        "number": "App. No. 347/KOL/2015",
+        "status": "Filed"
+      },
+      {
+        "inventors": "Gaurav Trivedi, Yogesh Dilip Save, Sachin B. Patkar and Mahesh B. Patil",
+        "title": "Application of modified two-graph method based circuit simulator to evaluate performance of solar cell arrays in various geometries",
+        "number": "TIFAC Ref. No: T.I.(88)/TIFA/2013",
+        "status": "Submitted"
+      }
+    ],
+    "journals": [
+      { "authors": "Sukanta Dey, Sukumar Nandi, and Gaurav Trivedi", "title": "PGOpt: Multi-objective Design Space Exploration Framework for Large-Scale On-Chip Power Grid Design in VLSI SoC using Evolutionary Computing Technique", "venue": "Microprocessors and Microsystems", "year": "2020 (Accepted)" },
+      { "authors": "N. Y. Meitei, K. L. Baisnab, and Gaurav Trivedi", "title": "A new 3D-IC partitioning method based on Genetic Algorithm", "venue": "IET Circuits, Devices & Systems", "year": "July 2020 (Accepted)" },
+      { "authors": "A. G. Berihu, Pinakeswar Mahanta, and Gaurav Trivedi", "title": "Thermal performance evaluation of multi-tube cylindrical LHS system", "venue": "Applied Thermal Engineering, Elsevier", "year": "June 2020 (Accepted)" },
+      { "authors": "Krishna Mohan Dwivedi, Gaurav Trivedi, Sunil K Khijwania, and Tomasz Osuch", "title": "Design and Performance Analysis of a High Sensitive Ultrasonic Acoustic sensor based on pi-phase-shifted Fiber Bragg Grating and Fiber Mach-Zehnder Interferometer Interrogation", "venue": "Metrology and Measurement Systems", "year": "June 2020 (Accepted)" },
+      { "authors": "Sukanta Dey, Sukumar Nandi, and Gaurav Trivedi", "title": "Machine Learning Approach for Fast Electromigration Aware Aging Prediction in Incremental Design of Large Scale On-Chip Power Grid Network", "venue": "ACM Transactions on Design Automation of Electronic Systems (TODAES)", "year": "May 2020 (Accepted)" },
+      { "authors": "S. Hussain, R. Kumar, and Gaurav Trivedi", "title": "Methodology and Comparative design of an efficient 4-bit Encoder with bubble error corrector for 1-GSPS Flash type ADC", "venue": "IET Circuits, Devices & Systems", "year": "May 2020" },
+      { "authors": "Ashok Kumar Ray, Sushanta Bordoloi et al.", "title": "Numerical Simulation of Enhanced-Reliability Filleted-Gate AlGaN/GaN HEMT", "venue": "Journal of Electronic Materials, Vol. 49, pp. 2018-2031", "year": "May 2020" },
+      { "authors": "Krishna Mohan Dwivedi, Tomasz Osuch, and Gaurav Trivedi", "title": "High Sensitive and Large Dynamic Range Quasi-Distributed Sensing System Based on Slow-Light p-phase-shifted Fiber Bragg Grating", "venue": "Opto-Electronics Review, vol. 27, pp. 233-240", "year": "July 2019" },
+      { "authors": "Sunil Dutt, Satyabrata Dash, Sukumar Nandi, and Gaurav Trivedi", "title": "Analysis, Modeling and Optimization of Equal Segment Based Approximate Adders", "venue": "IEEE Transactions on Computers, Vol. 68, pp. 314-330", "year": "March 2019" },
+      { "authors": "Sameer Pawanekar, Kalpesh Kapoor, Gaurav Trivedi", "title": "Kapees3: A High-Quality VLSI Standard Cell Placement Tool using Modified Nesterov's Method for Density Penalty", "venue": "World Scientific Journal of Circuits, Systems and Computers, Vol. 27, Issue 08", "year": "July 2018" },
+      { "authors": "Dheeraj Kumar Sinha et al.", "title": "Fast Ionization-front Induced Anomalous Switching Behavior in Trigger Bipolar Transistors of Marx-bank Circuits Under Base-drive Conditions", "venue": "IEEE Transactions on Plasma Science, Vol. 46, Issue 6, pp. 2064-2071", "year": "June 2018" },
+      { "authors": "Satyabrata Dash, Deepak Joshi, and Gaurav Trivedi", "title": "Multiobjective Analog/RF Circuit Sizing using an Improved Brain Storm Optimization Algorithm", "venue": "Memetic Computing. DOI: 10.1007/s12293-018-0262-9", "year": "May 2018" },
+      { "authors": "Sunil Dutt, Sukumar Nandi, and Gaurav Trivedi", "title": "Accuracy Enhancement of Equal Segment Based Approximate Adders", "venue": "IET Computers & Digital Techniques, Vol. 12, Issue 5, pp. 206-215", "year": "September 2018" },
+      { "authors": "Satyabrata Dash et al.", "title": "Minimizing Area of VLSI Power Distribution Networks Using River Formation Dynamics", "venue": "Journal of Systems and Information Technology, Vol. 20, Issue 4, pp. 417-429", "year": "February 2018" },
+      { "authors": "Satyabrata Dash, Deepak Joshi, Ayushparth Sharma, and Gaurav Trivedi", "title": "A hierarchy in mutation of genetic algorithm and its application to multi-objective analog/RF circuit optimization", "venue": "Analog Integrated Circuits and Signal Processing, Vol. 94, Issue 1, pp. 27-47", "year": "January 2018" },
+      { "authors": "Sunil Dutt, Sukumar Nandi, Gaurav Trivedi", "title": "Analysis and Design of Adders for Approximate Computing", "venue": "ACM Transactions on Embedded Computing Systems, Article No. 40", "year": "December 2017" },
+      { "authors": "Deepak Joshi et al.", "title": "Analog circuit optimization using adjoint network based sensitivity analysis", "venue": "Elsevier AEU - International Journal of Electronics and Communications, pp. 221-225", "year": "December 2017" },
+      { "authors": "Praveen Tiwari et al.", "title": "A Review on Microgrid Based on Hybrid Renewable Energy Sources in South-Asian Perspective", "venue": "Technology and Economics of Smart Grids and Sustainable Energy, Springer", "year": "July 2017" },
+      { "authors": "Sameer Pawanekar, Kalpesh Kapoor, Gaurav Trivedi", "title": "NAP: A Nonlinear Hypergraph Partitioning Method", "venue": "IETE Journal of Research, Taylor & Francis, pp. 60-70", "year": "October 2016" },
+      { "authors": "Hemangee K. Kapoor, G. Bhoopal Rao, Sharique Arshi and Gaurav Trivedi", "title": "A Security Framework for NoC Using Authenticated Encryption and Session Keys", "venue": "Circuits, Systems and Signal Processing, Springer. DOI 10.1007/s00034-013-9568-5", "year": "February 2013" }
+    ],
+    "conferences": [
+      { "authors": "Berihu Gebreyohannes Abreha, Pinakeswar Mahanta, and Gaurav Trivedi", "title": "Performance improvement techniques in shell-and-tube type of LHS", "venue": "Int. Conference on Recent Trends in Thermo-fluids and Renewable Energy, Arunachal Pradesh", "year": "Nov 2020 (Accepted)" },
+      { "authors": "Shikhar Gupta, Arpan Vyas, and Gaurav Trivedi", "title": "FPGA Implementation of Simplified Spiking Neural Network", "venue": "27th IEEE International Conference on Electronics Circuits and Systems (ICECS), Glasgow Scotland", "year": "Nov 2020" },
+      { "authors": "Meenali Janveja et al.", "title": "Design of Efficient AES Architecture for Secure ECG Signal Transmission for Low-power IoT Applications", "venue": "IEEE 30th International Conference Radioelektronika", "year": "April 2020" },
+      { "authors": "Sukanta Dey, Sukumar Nandi, and Gaurav Trivedi", "title": "PowerPlanningDL: Reliability-Aware Framework for On-Chip Power Grid Design using Deep Learning", "venue": "IEEE/ACM DATE 2020, Grenoble, France", "year": "March 2020" },
+      { "authors": "Swati Shukla and Gaurav Trivedi", "title": "EMT analysis of heavy-duty EV's in charging station", "venue": "International Conference on Electronic System and Intelligent Computing", "year": "March 2020" },
+      { "authors": "S. Hussain, R. Kumar and Gaurav Trivedi", "title": "Resolution Selective 2 to 6-bit Flash ADC in 45nm Technology", "venue": "International Conference on Electronic System and Intelligent Computing", "year": "March 2020" },
+      { "authors": "Ajeyo Dey et al.", "title": "A Cooperative Co-evolution based Scalable Framework for Solving Large-Scale Global Optimization Problems", "venue": "2019 IEEE International Conference on Systems, Man and Cybernetics (SMC), Bari, Italy", "year": "October 2019" },
+      { "authors": "Satyabrata Dash and Gaurav Trivedi", "title": "Convergence Analysis of River Formation Dynamics Algorithm", "venue": "2019 IEEE International Conference on Systems, Man and Cybernetics (SMC), Bari, Italy", "year": "October 2019" },
+      { "authors": "Bikram Paul et al.", "title": "Efficient PRNG Design and Implementation for High Throughput Cryptographic and Low Power Security Applications", "venue": "IEEE 29th International Conference Radioelektronika (RADIOELEKTRONIKA), Pardubice. [3rd Prize - Best Student Paper]", "year": "April 2019", "award": "3rd Prize - Best Student Paper" },
+      { "authors": "Satyabrata Dash et al.", "title": "RiverOpt: A Multiobjective Optimization Framework based on Modified River Formation Dynamics Heuristic", "venue": "32nd International Conference on VLSI Design (VLSID)", "year": "January 2019" },
+      { "authors": "Satyabrata Dash, Deepak Joshi and Gaurav Trivedi", "title": "CMOS Analog Circuit Optimization via River Formation Dynamics", "venue": "26th International Conference Radioelektronika.", "year": "2016", "award": "Best Paper Award" },
+      { "authors": "Satyabrata Dash, Krishna Lal Baishnab and Gaurav Trivedi", "title": "Applying River Formation Dynamics to Analyze VLSI Power Grid Networks", "venue": "29th International Conference on VLSI Design (VLSID), Kolkata.", "year": "2016", "award": "Honorable Mention Award" },
+      { "authors": "Deepak Joshi et al.", "title": "A method of analog circuit optimization using adjoint sensitivity analysis", "venue": "MAREW 2015, Czech Republic.", "year": "2015", "award": "Best Paper Award" },
+      { "authors": "Gaurav Trivedi and H. Narayanan", "title": "Application of Fast DC Analysis to Partitioning Hypergraphs", "venue": "ISCAS 2007", "year": "2007" },
+      { "authors": "Gaurav Trivedi, Madhav P. Desai and H. Narayanan", "title": "Parallelization of DC Analysis through Multiport Decomposition", "venue": "20th International Conference on VLSI Design", "year": "2007" },
+      { "authors": "Gaurav Trivedi, Sumit Punglia and H. Narayanan", "title": "Application of DC Analyzer to Combinatorial Optimization Problems", "venue": "20th International Conference on VLSI Design", "year": "2007" },
+      { "authors": "Gaurav Trivedi, Madhav P. Desai and H. Narayanan", "title": "Fast DC Analysis and its Application to Combinatorial Optimization Problems", "venue": "19th International Conference on VLSI Design", "year": "2006" },
+      { "authors": "G. Anil Kumar, Gaurav Trivedi, Madhav P. Desai and H. Narayanan", "title": "Parallelization of DC Analyzer", "venue": "HPC Asia 2002, 6th International Conference on High Performance Computing in Asia Pacific Region", "year": "2002" }
+    ],
+    "shortPapers": [
+      { "authors": "Dheeraj Kumar Sinha et al.", "title": "Analysis and Design of ZRAM Cell for Low Voltage Operations", "venue": "18th International Workshop on Physics of Semiconductor Devices (IWPSD 2015), Bangalore", "type": "Poster" },
+      { "authors": "Gaurav Kumar et al.", "title": "A Parallel Device Simulator Based on Discontinuous Galerkin FEM", "venue": "IWPSD 2015, Bangalore", "type": "Poster" },
+      { "authors": "Sushanta Bordoloi et al.", "title": "A Review on Issues in Device Modeling at Liquid Nitrogen Temperature", "venue": "CCP 2015, IIT Guwahati", "type": "Poster" },
+      { "authors": "Ashok Ray et al.", "title": "Silicon Carbide: An emerging material for high power device applications", "venue": "CCP 2015, IIT Guwahati", "type": "Poster" },
+      { "authors": "Satyabrata Dash and Gaurav Trivedi", "title": "Random Walk Algorithm to Analyze VLSI Power Grid Networks", "venue": "Intel Academic Forum, New Delhi, 2015", "type": "Poster" },
+      { "authors": "Gaurav Trivedi", "title": "Intel-IITG initiative in the area of HPC and Embedded Systems", "venue": "Intel Asia Academic Forum, Penang, Malaysia", "type": "Short Paper" }
+    ]
+  },
+  "projects": {
+    "sponsored": [
+      {
+        "title": "Reducing Cache Access Time in Tiled Chip Multiprocessors",
+        "joint": "Jointly with Dr. Hemangee K. Kapoor, CSE Department, IIT Guwahati",
+        "agency": "Department of Information Technology (DIT)",
+        "duration": "3 years",
+        "status": "Completed"
+      },
+      {
+        "title": "Point Relaxation And LUT Based Efficient Circuit Simulator For Novel Devices",
+        "joint": "",
+        "agency": "IIT Guwahati (Start Up Grant project)",
+        "duration": "2 years",
+        "status": "Completed"
+      },
+      {
+        "title": "ARM Embedded System Design Lab",
+        "joint": "Jointly with Dr. S. Krishnaswamy, Dr. S. Biswas, Dr. A. Perumal and Dr. S. K. Dwivedy",
+        "agency": "Arm Embedded Technologies Pvt Ltd, India",
+        "duration": "2 years",
+        "status": "Completed"
+      },
+      {
+        "title": "High Performance Computing using GPU",
+        "joint": "Jointly with Dr. Kalpesh Kapoor, Dr. Praveen Kumar, Dr. Ratnajit Bhattacharjee and Dr. Saswata Shannigrahi",
+        "agency": "Nvidia Graphics Pvt Ltd, India",
+        "duration": "2 years",
+        "status": "Completed"
+      },
+      {
+        "title": "Electronics & ICT Academy",
+        "joint": "Jointly with Dr. Ratnajit Bhattacharjee and Dr. Rohit Sinha",
+        "agency": "Department of Electronics and Information Technology",
+        "duration": "5 years",
+        "status": "Ongoing",
+        "website": "http://eict.iitg.ac.in"
+      },
+      {
+        "title": "Development of ESD I/O Pads for CIS/CCD Image Sensor for 0.18um SCL Foundry",
+        "joint": "Jointly with Dr. Amitabh Chatterjee",
+        "agency": "ISRO (RESPOND)",
+        "duration": "2 years",
+        "status": "Completed"
+      },
+      {
+        "title": "An Energy Efficient IOT Processor built using an Optimized Near-Threshold Voltage Standard Cell Library",
+        "joint": "Jointly with Dr. Anand Bulusu, IIT Roorkee",
+        "agency": "IMPRINT",
+        "duration": "3 years",
+        "status": "Ongoing"
+      },
+      {
+        "title": "Development and Efficient Characterization of Floating Body (FB) and Dynamic Threshold (DT) CMOS Partially Depleted Silicon-On-Insulator (PDSOI) Standard Cell Libraries",
+        "joint": "Jointly with Dr. Anand Bulusu, IIT Roorkee",
+        "agency": "IMPRINT",
+        "duration": "3 years",
+        "status": "Ongoing"
+      },
+      {
+        "title": "Smart Contactless Technology Development for Smart Fencing",
+        "joint": "Jointly with Dr. Hanumant Singh Shekhawat, Dr. Prithwijit Guha, Dr. Srinivasan Krishnaswamy, Dr. Harshal B. Nemade, Dr. Ratnajit Bhattacharjee, Dr. Rohit Sinha, Dr. Anand Bulusu and Dr. Sanjeev Manhas, IIT Roorkee",
+        "agency": "DST (Indo-Czech joint collaboration)",
+        "duration": "3 years",
+        "status": "Approved"
+      },
+      {
+        "title": "Intel Center of Excellence on Electronics System Design",
+        "joint": "Jointly with Dr. Aryabartta Sahu",
+        "agency": "Intel Technologies",
+        "duration": "3 years",
+        "status": "Announced"
+      }
+    ],
+    "consultancy": [
+      {
+        "title": "Conversion Of Computational Fluid Dynamics Solver Developed in C++ to CUDA and Demonstration of Speedup On Graphics Processing Unit",
+        "joint": "with Prof. Sachin B. Patkar, IIT Bombay",
+        "agency": "Vikram Sarabhai Space Centre (VSSC), ISRO, Kerala",
+        "duration": "6 Months (During Post-Doctoral Fellowship at IIT Bombay)",
+        "status": "Completed"
+      },
+      {
+        "title": "FPGA Based Solution for Algorithmic Trading Platforms",
+        "joint": "",
+        "agency": "Pace Stock Broking Services Pvt. Ltd.",
+        "duration": "9 Months",
+        "status": "Completed"
+      }
+    ]
+  },
+  "students": {
+    "ongoingPhD": [
+      { "name": "Bikram Paul", "status": "Research Scholar", "bio": "Mr. Bikram Paul received his B.Tech and M.Tech from National Institute of Technology Agartala in 2012 and 2014, in the area of Electronics and Communication Engineering and Microelectronics and VLSI Design respectively. He worked as visiting faculty in the Department of ECE, Tripura Institute of Technology. He enrolled in Ph.D. at IIT Guwahati in December 2014 and works in the area of Post-Quantum Cryptography and designing architecture of SoC hardware accelerator on FPGA. His research interests include Quantum Computing, Processor architecture, VLSI CAD, Hardware/True random number generator. He received Best Paper Award at IEEE International Conference Radioelektronika 2019.", "area": "Post-Quantum Cryptography, SoC Architecture, FPGA" },
+      { "name": "Praveen Tiwari", "status": "Research Scholar (jointly with Prof. Pinakeswar Mahanta, Center For Energy)", "bio": "Mr. Praveen Tiwari received his BTech (EEE) from TIT Bhopal and MTech from SSCET Bhilai in 2005 and 2011 respectively. He has worked as faculty in reputed Engineering Colleges for nearly eight years. He enrolled in PhD at IIT Guwahati in July 2014.", "area": "Community Micro Grid, Renewable Energy Resources, System Security" },
+      { "name": "Sushree Sila P. Goswami", "status": "Research Scholar", "bio": "Ms. Sushree Sila P. Goswami received her B.Tech from NIST Berhampore, Odisha and M.Tech in Electronics and Electrical Communication Engineering from PEC University, Chandigarh. She worked as Assistant Professor at Sharda University, Greater Noida. She enrolled in Ph.D. at IIT Guwahati in December 2015.", "area": "IoT Security, FPGA Design, Cryptographic Algorithms, High Performance Computing" },
+      { "name": "Sushanta Bordoloi", "status": "Research Scholar (NIT Trainee Teacher)", "bio": "Mr. Sushanta Bordoloi completed B.Tech in ECE from Tezpur University in 2014. He joined NIT Mizoram as Trainee Teacher under the IIT-NIT Trainee Teacher Scheme of MHRD. He completed M.Tech in 2016 in VLSI at IIT Guwahati and is currently pursuing PhD.", "area": "III-V Semiconductor, TCAD Simulation" },
+      { "name": "Meenali Janveja", "status": "Research Scholar", "bio": "Ms. Meenali Janveja received her BTech from Rajasthan Technical University in 2013 and M.Tech from IGDTUW, Delhi in 2016 in VLSI Design. She joined as an Assistant Professor at G.L Bajaj Institute of Technology and joined IIT Guwahati as a research scholar in 2017.", "area": "VLSI Architectures for Biomedical Signal Processing, DSP Hardware Design, FPGA" },
+      { "name": "Ashvinikumar Pruthviraj Dongre", "status": "Research Scholar", "bio": "Mr. Ashvinikumar Dongre received B.E. in ECE from Nagpur University and MTech in VLSI Design from ABV-IITM Gwalior. He worked as assistant professor at GHRCE Nagpur for 5 years. Currently pursuing PhD in EEE Dept IIT Guwahati since 2018.", "area": "Circuit Design for Neuromorphic Computing, Memory Design, High Performance Computing" },
+      { "name": "Ananda YR", "status": "Research Scholar", "bio": "Mr. Ananda Y R received his B.E. from VTU, Karnataka in 2011 and M.Tech in VLSI Design and Embedded System from VTU in 2014. He worked as an Assistant Professor from 2014 to 2017 at DSCE, Bangalore and as JRF from 2017-2018 at IIT Guwahati CSE Dept. Joined PhD in EEE Dept in July 2018.", "area": "Semiconductor Devices, Advanced Electronic Devices, Digital VLSI, Analog Mixed-Signal IC" },
+      { "name": "Ankita Tiwari", "status": "Research Scholar (jointly with Prof. Prithwijit Guha)", "bio": "Ms. Ankita Tiwari received BTech in ECE from AKTU, U.P. in 2015 and MTech in Embedded System and Technology from Amity University in 2018. She is a PhD student in the Department of EEE, IIT Guwahati.", "area": "Computer Architecture, Machine Learning, VLSI System Design" },
+      { "name": "Amit Kumar Singh", "status": "Research Scholar", "bio": "Mr. Amit Kumar Singh received BTech in ECE from NIT Meghalaya in 2016 and MTech in Microelectronics and VLSI Design from NIT Sikkim in 2018. Enrolled as Ph.D. student in EEE, IIT Guwahati in 2018.", "area": "Numerical Analysis of Semiconductor Devices, VLSI CAD, Digital Circuits" },
+      { "name": "Saras Mani Mishra", "status": "Research Scholar (jointly with Prof. Hanumant Singh Shekhawat)", "bio": "Mr. Saras Mani Mishra completed BTech in Instrumentation and Control Engineering from Haldia Institute of Technology in 2015 and MTech in Instrumentation Engineering from NIT Silchar in 2019. Currently pursuing PhD at IIT Guwahati.", "area": "VLSI Circuits and System Design, Control System" },
+      { "name": "Rushik Parmar", "status": "Research Scholar", "bio": "Mr. Rushik Parmar received his Bachelor's degree in Electronics and Telecommunication from IET, DAVV. He worked at Accenture Digital as a Software Engineer. Joined IIT Guwahati in January 2020 for PhD in Microelectronics and VLSI.", "area": "Embedded System, FPGA, Internet of Things" },
+      { "name": "Bipul Boro", "status": "Research Scholar", "bio": "Mr. Bipul Boro completed BTech in ECE from CIT Kokrajhar in 2016 and MTech in VLSI from NIT Goa in 2019. Currently pursuing PhD at IIT Guwahati.", "area": "VLSI System Design, High Performance Computing, Hardware Security" },
+      { "name": "Parmita Roy", "status": "Research Scholar", "bio": "Ms. Parmita Roy completed B.E. in Electronics and Telecommunication from JIST Assam in 2016 and M.Tech in Microelectronics and VLSI from NIT Durgapur in 2019. Enrolled as PhD student at IIT Guwahati.", "area": "Semiconductor Devices, VLSI CAD, VLSI Circuits and Systems" },
+      { "name": "Naorem Yaipharenba Meitei", "status": "Research Scholar (jointly with Prof. K. L. Baishnab, NIT Silchar)", "bio": "Mr. Naorem Yaipharenba Meitei received B.Tech in ECE from NERIST in 2012 and M.Tech in VLSI and Nanotechnology from NIT Agartala in 2015. Research scholar at NIT Silchar since 2015.", "area": "Analog and Digital VLSI Design, VLSI Physical Design - Partitioning, Floorplanning, Placement" },
+      { "name": "Apurba Bikash Kalita", "status": "Research Scholar (jointly with Prof. Subhash Chandra Rajbongshi, GUIST, Gauhati University)", "bio": "Mr. Apurba Bikash Kalita received B.E. from Assam Engineering College in 2002 and M.Tech in Electronics Design and Technology from Tezpur University in 2006. Worked at OIL INDIA LIMITED and joined Gauhati University in 2011.", "area": "Microelectronics, Artificial Intelligence" }
+    ],
+    "completedPhD": [
+      { "name": "Dr. Dheeraj Kumar Sinha", "year": "2017", "current": "Assistant Professor, IIIT Bhagalpur", "area": "VLSI & Microelectronics, ESD Protection Devices" },
+      { "name": "Dr. Sameer Pawanekar", "year": "2018", "current": "Product Manager, UST Global, Bengaluru", "area": "VLSI CAD, Placement and Routing" },
+      { "name": "Dr. Deepak Joshi", "year": "2018", "current": "Assistant Professor, SVNIT Surat", "area": "Metaheuristics, VLSI Circuit Optimization. [2x Best Paper Award at RADIOELEKTRONIKA 2015, 2016]" },
+      { "name": "Dr. Satyabrata Dash", "year": "2018", "current": "Principal Engineer, TSMC, Taiwan", "area": "EDA Tools, VLSI Optimization using Nature-inspired Algorithms. [Honorable Mention VLSID 2016, 2x Best Paper Award RADIOELEKTRONIKA 2015, 2016]" },
+      { "name": "Dr. Sunil Dutt", "year": "2018", "current": "Assistant Professor, IIIT Vadodara", "area": "Digital Circuit Design, Approximate Computing" },
+      { "name": "Dr. Gaurav Kumar", "year": "2019", "current": "R&D Engineer, Synopsys India, Bangalore", "area": "VLSI CAD, Device Simulation" },
+      { "name": "Swati Shukla", "year": "Thesis Submitted", "current": "Research on Smart Grid and HPC", "area": "Smart Grid, Renewable Energy Resources" },
+      { "name": "Ashok Kumar Ray", "year": "Thesis Submitted", "current": "Assistant Professor, NERIST", "area": "Silicon Carbide, III-IV Semiconductors" },
+      { "name": "Berihu Gebreyohannes Abreha", "year": "Thesis Submitted", "current": "Academic Staff, Hawassa University, Ethiopia", "area": "Solar Energy, Thermal Energy Storage" },
+      { "name": "Sukanta Dey", "year": "Thesis Submitted", "current": "PhD Student, IIT Guwahati (CS&E)", "area": "ML for VLSI CAD, VLSI Physical Design" },
+      { "name": "Sarfraz Hussain", "year": "Thesis Submitted", "current": "Research Scholar, NERIST", "area": "Analog and Digital VLSI Design, Flash ADC" },
+      { "name": "Krishna Mohan Dwivedi", "year": "Synopsis Held", "current": "", "area": "Fiber Optic Sensors, Optical Communication" }
+    ],
+    "mtechOngoing": ["Rishabh Gupta (VLSI)", "Nikhil Gupta (VLSI)", "Sayooj K. (VLSI)", "Sumit Kullu (VLSI)", "Rishabh Dhawan (Data Science)", "Hardik Kumar Prajapathi (Data Science)", "Rewatkar Karan Rajesh (Data Science)"],
+    "mtechCompleted": ["Nandlal Yadav", "Priti Sonowal", "V. Mahesh Kuruganti", "Patan Imran Khan", "Gajender Kumar", "Nijil N.", "Anshu Chauhan", "Kunche Raja Ashok", "Harsh Shaileshbhai Patel", "Sushanta Bordoloi", "Anupam Boro", "Dipankar Bora", "Mandeep Singh", "Siva Namathoti", "Ben Thomas", "Anish Joboy Augustine", "Srinath Satapathy", "Gaurav Agarwal", "Saurabh Sharma", "Rohit Jharia", "Sq. Ldr. Shashank Shekhar", "Maj. Sunil Kumar Panwar", "Ankit Raghuwanshi", "Md. Asfani", "Pulugu Tharun Ram Kumar"],
+    "btechOngoing": [
+      { "name": "Mayank Tantuway", "year": "2021" }, { "name": "Ketan Sanjay Chaudhari", "year": "2021" }, { "name": "Ashutosh Gupta", "year": "2021" }, { "name": "Bhosale Rutvij", "year": "2021" }, { "name": "Buswala Nitesh", "year": "2021" }, { "name": "Abhishek", "year": "2021" }, { "name": "Mullu Bhavya", "year": "2022" }, { "name": "Abhishek", "year": "2022" }, { "name": "Sarit Burman", "year": "2022" }, { "name": "Subhashis Das", "year": "2022" }
+    ],
+    "btechCompleted": [
+      { "name": "Samala Bhargav", "year": "2013" }, { "name": "Savalla Nikhilesh", "year": "2013" }, { "name": "Dheeraj Khoriya", "year": "2013" }, { "name": "Rahul Raj", "year": "2013" }, { "name": "Agam Kumar Garg", "year": "2014", "note": "GATE 2016, EC, AIR 1" }, { "name": "Ajay Yadav", "year": "2014" }, { "name": "Vaneet Singh Yadav", "year": "2015" }, { "name": "Ameesh Mittal", "year": "2015" }, { "name": "Kshitiz Gupta", "year": "2015" }, { "name": "Pratyush Khatait", "year": "2015" }, { "name": "Amarendra Tiwari", "year": "2015" }, { "name": "Lokesh Pandiyar", "year": "2015" }, { "name": "Pawan Katiyar", "year": "2015" }, { "name": "Jitesh Sapawat", "year": "2016" }, { "name": "Kamal Rawat", "year": "2016" }, { "name": "Rupesh Narayan", "year": "2016" }, { "name": "Ishan Mishra", "year": "2016" }, { "name": "Adesh Raj", "year": "2017" }, { "name": "Shreyash Sahare", "year": "2017" }, { "name": "Ayush Vijay", "year": "2017" }, { "name": "Naveen Sagar", "year": "2017" }, { "name": "Tanuj Agarwal", "year": "2017" }, { "name": "Rahul Kande", "year": "2017" }, { "name": "Shikhar Gupta", "year": "2017" }, { "name": "Saumitra Sharma", "year": "2018" }, { "name": "Nikhil Menghrajani", "year": "2018" }, { "name": "Arpan Vyas", "year": "2018" }, { "name": "Rishav Karki", "year": "2018" }, { "name": "Tejaswini Bandlamudi", "year": "2018" }, { "name": "Tanmay Tamia", "year": "2018" }, { "name": "Abhishek Agrawal", "year": "2019" }, { "name": "Souradip Pal", "year": "2019" }, { "name": "Tumati Likhitha", "year": "2019" }, { "name": "Ajeyo Dev", "year": "2019" }, { "name": "Balbir Singh", "year": "2020" }, { "name": "Tarun Kumar Yadav", "year": "2020" }, { "name": "Piyush Raj", "year": "2020" }, { "name": "Rohit Gupta", "year": "2020" }, { "name": "Archana", "year": "2020" }
+    ]
+  },
+  "downloads": {
+    "software": [
+      { "name": "SGA", "description": "Simple Genetic Algorithm", "link": "#" },
+      { "name": "NSGA II", "description": "Non-dominated Sorting Genetic Algorithm II", "link": "#" },
+      { "name": "MOEA", "description": "Multi-Objective Evolutionary Algorithm", "link": "#" },
+      { "name": "PSO", "description": "Particle Swarm Optimization", "link": "#" },
+      { "name": "SA", "description": "Simulated Annealing", "link": "#" },
+      { "name": "Source Code (Problem 6)", "description": "Source code for Project Problem 6", "link": "#" },
+      { "name": "Source Code (Problem 7)", "description": "Source code for Project Problem 7", "link": "#" }
+    ]
+  }
+}
