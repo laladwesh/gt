@@ -190,6 +190,88 @@
       { "title": "Tech \"Phi\" Drive \u2014 Intel Xeon Phi Workshop, IIT Guwahati", "date": "August 2013", "role": "Convener" },
       { "title": "Full Semester Course on Parallel Computing (with Dr. Kalpesh Kapoor & Intel)", "date": "July \u2013 November 2012, IIT Guwahati", "role": "Convener" }
     ]
+    ,
+    "personal": {
+      "name": "Dr. Gaurav Trivedi",
+      "gender": "Male",
+      "dateOfBirth": "19 January 1976",
+      "designation": "Professor, Dept. of Electronics and Electrical Engineering, Indian Institute of Technology Guwahati",
+      "postalAddress": "Indian Institute of Technology Guwahati, Guwahati, Assam, Pin 781039",
+      "phoneNumbers": ["+91-361-258-2536","+91-8011000783","+91-9435582802"],
+      "emails": ["trivedi@iitg.ac.in","gaurav.vb.trivedi@gmail.com"]
+    },
+    "qualifications": [
+      { "degree": "B.E.", "institution": "SGSITS, Indore", "field": "Electronics", "year": 1998 },
+      { "degree": "M.Tech.", "institution": "IIT Bombay", "field": "Microelectronics", "year": 2000 },
+      { "degree": "Ph.D.", "institution": "IIT Bombay", "field": "Electrical Engineering (VLSI CAD)", "year": 2006 }
+    ],
+    "employmentExperience": [
+      { "position": "Professor, Department of EEE, IIT Guwahati", "nature": "Teaching, Research and Development", "period": "December 2024 – Till Date" },
+      { "position": "Associate Professor, Department of EEE, IIT Guwahati", "nature": "Teaching, Research and Development", "period": "June 2018 – December 2024" },
+      { "position": "Assistant Professor, Department of EEE, IIT Guwahati", "nature": "Teaching, Research and Development", "period": "November 2011 – June 2018" },
+      { "position": "Post-Doctoral Fellow, EE Dept, IIT Bombay", "nature": "Research and Development", "period": "September 2009 – November 2011" },
+      { "position": "Senior Member of Technical Staff, Siemens India (earlier Berkeley Design Automation India Pvt Ltd)", "nature": "Research and Development", "period": "April 2008 – July 2009" },
+      { "position": "Senior Member of Technical Staff, Cadence Design Systems India Pvt Ltd", "nature": "Research and Development", "period": "February 2007 – March 2008" },
+      { "position": "Senior Research Fellow, EE Dept., IIT Bombay", "nature": "Research and Development", "period": "August 2006 – February 2007" }
+    ],
+    "coursesTaught": [
+      "Analog Circuits Lab (UG)",
+      "Basic Electronics Lab (UG)",
+      "Semiconductor Devices and Circuits (UG)",
+      "Embedded Systems (UG)",
+      "Introduction to VLSI Design (UG)",
+      "Digital IC Design (PG)",
+      "Fundamentals of VLSI CAD (UG+PG)",
+      "VLSI System Design (PG)",
+      "VLSI Lab-1 (PG)",
+      "Introduction to Parallel Computing (UG+PG)",
+      "Semiconductor VLSI Technology (PG)",
+      "Data Structures and Algorithms (UG+PG)",
+      "Computer Systems (UG)"
+    ],
+    "projectSupervision": {
+      "phd": { "completed": 20, "submitted": 1, "synopsis": 1, "ongoing": 18 },
+      "mtech": { "completed": 61, "ongoing": 7 },
+      "btech": { "completed": 76, "ongoing": 4 }
+    },
+    "skillDevelopment": {
+      "summary": "Selected PAN India skill development courses (last three years) through E&ICT Academy, IIT Guwahati; full list available in source CV",
+      "examples": [
+        "Behavioral Remodeling and use of ICT Tools for Classroom Delivery of Teachers (Pandu College)",
+        "Data Analytics using Python Programming (Bannari Amman Institute)",
+        "Machine Learning using Python (KITs Guntur)"
+      ]
+    },
+    "selectedFDPs": [
+      { "title": "Summer FDP on VLSI Design and Verification", "coordinator": "Dr. Gaurav Trivedi", "startDate": "26-05-2018", "endDate": "30-05-2018", "participants": 41 },
+      { "title": "Winter FDP on DSP and Sensors", "coordinator": "Dr. Gaurav Trivedi", "startDate": "10-12-2018", "endDate": "14-12-2018", "participants": 100 },
+      { "title": "VLSI Chip Design Hands on using open source EDA", "coordinator": "Dr. Gaurav Trivedi", "startDate": "08-07-2019", "endDate": "12-07-2019", "participants": 160 }
+    ],
+    "workshopsConducted": [
+      { "title": "Virtual Reality using Unity 3D Modelling", "startDate": "04-06-2018", "endDate": "16-06-2018", "venue": "IIT Guwahati", "participants": 30 },
+      { "title": "Data Analytics using R Programming", "startDate": "30-08-2018", "endDate": "01-09-2018", "venue": "Sikkim and Manipal University", "participants": 47 },
+      { "title": "FPGA Design", "startDate": "10-11-2018", "endDate": "10-11-2018", "venue": "IIT Guwahati", "participants": 80 }
+    ],
+    "trainingConducted": [
+      { "title": "Patent Research", "startDate": "21-06-2018", "endDate": "23-06-2018", "venue": "Jain University", "participants": 25 },
+      { "title": "IoT for emerging Engineering Applications", "startDate": "16-07-2018", "endDate": "20-07-2018", "venue": "Gauhati University", "participants": 31 },
+      { "title": "Winter Training Programme on Python Programming", "startDate": "02-01-2019", "endDate": "07-01-2019", "venue": "E&ICT Academy, IIT Guwahati", "participants": 6 }
+    ],
+    "academicOutreach": {
+      "highlights": [
+        "More than 100 keynote/invited/experts talks/lectures delivered since 2011",
+        "Technical Programme Chair and Advisory Committee Member of ETTIS 2022",
+        "General Chair and Sponsorship Chair at 34th International Conference on VLSI Design (VLSID) 2021"
+      ]
+    },
+    "professionalActivities": {
+      "membership": ["IEEE"],
+      "roles": [
+        "Reviewer of research publications for IEEE, ACM, Springer, Elsevier journals and conferences",
+        "Core group member of Centre for Advanced Computing, High Performance Computing and FPGA Lab at IIT Guwahati",
+        "Core group member of AUSHADHI, an Open Source Drug Discovery Platform, at IIT Guwahati"
+      ]
+    }
   },
   "publications": {
     "books": [
@@ -317,6 +399,25 @@
       
     ],
     "conferences": [
+      { "authors": "Parmita Roy, Abhigyan Hazarika, Dr. Gaurav Trivedi", "title": "Design of VTFET based biosensor utilizing Ambipolar Current in detection mechanism", "venue": "EDKCON", "year": "2024", "note": "Accepted" },
+      { "authors": "D. S. Hegde, M. Dalai, M. Prajapati, S. B. Patkar and G. Trivedi", "title": "Rapid Prototyping of CRYSTALS-Kyber Primitives on FPGA using Python-only HW-SW Flow", "venue": "28th International Symposium on VLSI Design and Test (VDAT), Vellore, India", "year": "2024", "pages": "1-6", "doi": "10.1109/VDAT63601.2024.10705702" },
+      { "authors": "P. Tiwari, M. K. Kocherla, S. Nandanapu, P. Mahanta and G. Trivedi", "title": "IoT-Enabled RC4-Stream-Cipher Powered Edge Data Encryption for Smart Home", "venue": "International Conference on Electrical, Computer and Energy Technologies (ICECET), Sydney, Australia", "year": "2024", "pages": "1-6", "doi": "10.1109/ICECET61485.2024.10698342" },
+      { "authors": "B. Boro, R. Parmar, A. Dongre and G. Trivedi", "title": "Reprogrammable Time-Domain RRAM Based Vector Matrix Multiplier for In-Memory Computing", "venue": "25th International Symposium on Quality Electronic Design (ISQED), San Francisco, CA, USA", "year": "2024", "pages": "1-8", "doi": "10.1109/ISQED60706.2024.10528699" },
+      { "authors": "B. Boro, A. Dongre, R. Parmar and G. Trivedi", "title": "Programmable Binary Weighted Time-Domain Vector Matrix Multiplier for In-Memory Computing", "venue": "IEEE Asia Pacific Conference on Circuits and Systems (APCCAS), Hyderabad, India", "year": "2023", "pages": "261-265", "doi": "10.1109/APCCAS60141.2023.00066" },
+      { "authors": "P. Tiwari, S. Asma, N. G. U, P. Mahanta and G. Trivedi", "title": "Load-Data Imputation and Economic Feasibility Analysis of an Academic Institution", "venue": "International Conference on Electrical, Computer and Energy Technologies (ICECET), Cape Town, South Africa", "year": "2023", "pages": "1-6", "doi": "10.1109/ICECET58911.2023.10389395" },
+      { "authors": "Y. R. Ananda, S. Das and G. Trivedi", "title": "A Novel Dynamic Memristor Window Function for High Frequency Applications", "venue": "21st IEEE Interregional NEWCAS Conference (NEWCAS), Edinburgh, United Kingdom", "year": "2023", "pages": "1-5", "doi": "10.1109/NEWCAS57931.2023.10198059" },
+      { "authors": "A. B. Kalita, S. C. Rajbongshi and G. Trivedi", "title": "Hybrid multi-objective constrained optimization based on feasibility segregation, non-dominated sorting and crowding distance", "venue": "10th International Conference on Signal Processing and Integrated Networks (SPIN), Noida, India", "year": "2023", "pages": "7-13", "doi": "10.1109/SPIN57001.2023.10116769" },
+      { "authors": "A. Dongre and Gaurav Trivedi", "title": "Binary Synaptic Array for Inference and Training with Built-in RRAM Electroforming Circuit", "venue": "24th International Symposium on Quality Electronic Design (ISQED), San Francisco, CA, USA", "year": "2023", "pages": "1-6", "doi": "10.1109/ISQED57927.2023.10129360" },
+      { "authors": "Y. R. Ananda, A. Hajra and Gaurav Trivedi", "title": "An Adaptive Window Function based Memristor Model", "venue": "33rd International Conference Radioelektronika (RADIOELEKTRONIKA), Pardubice, Czech Republic", "year": "2023", "pages": "1-5", "doi": "10.1109/RADIOELEKTRONIKA57919.2023.10109029" },
+      { "authors": "S. S. P. Goswami and Gaurav Trivedi", "title": "Comparison of Hardware Implementations of Cryptographic Algorithms for IoT Applications", "venue": "33rd International Conference Radioelektronika (RADIOELEKTRONIKA), Pardubice, Czech Republic", "year": "2023", "pages": "1-6", "doi": "10.1109/RADIOELEKTRONIKA57919.2023.10109046" },
+      { "authors": "A. Tiwari, P. Guha, Gaurav Trivedi, N. Gupta, N. Jayaraj and J. Pidanic", "title": "IndiRA: Design and Implementation of a Pipelined RISC-V Processor", "venue": "33rd International Conference Radioelektronika (RADIOELEKTRONIKA), Pardubice, Czech Republic", "year": "2023", "pages": "1-6", "doi": "10.1109/RADIOELEKTRONIKA57919.2023.10109058" },
+      { "authors": "Shubham Garg and Gaurav Trivedi", "title": "Blockchain Mining Simulation using Verilog", "venue": "ETTIS", "year": "2023", "note": "Accepted" },
+      { "authors": "S. M. Mishra, Ankita Tiwari, Hanumant Singh Shekhawat, Prithwijit Guha, Jan Pidanic, Nemec Zdenek, Gaurav Trivedi", "title": "Comparison of Floating-point Representations for the Efficient Implementation of Machine Learning Algorithms", "venue": "32nd International Conference Radioelektronika (RADIOELEKTRONIKA), Kosice, Slovakia", "year": "2022", "pages": "1-6", "doi": "10.1109/RADIOELEKTRONIKA54537.2022.9764927" },
+      { "authors": "A. Tiwari, S. M. Mishra, P. Guha, P. Jan, Z. Nemec and Gaurav Trivedi", "title": "Design of a Low Power and Area Efficient Bfloat16 based Generalized Systolic Array for DNN Applications", "venue": "32nd International Conference Radioelektronika (RADIOELEKTRONIKA), Kosice, Slovakia", "year": "2022", "pages": "1-5", "doi": "10.1109/RADIOELEKTRONIKA54537.2022.9764899" },
+      { "authors": "M. Janveja, R. Parmar, Gaurav Trivedi, P. Jan and Z. Nemec", "title": "An Energy Efficient and Resource Optimal VLSI Architecture for ECG Feature Extraction for Wearable Healthcare Applications", "venue": "32nd International Conference Radioelektronika (RADIOELEKTRONIKA), Kosice, Slovakia", "year": "2022", "pages": "1-6", "doi": "10.1109/RADIOELEKTRONIKA54537.2022.9764910" },
+      { "authors": "J. Pidanic, A. Vyas, R. Karki, P. Vij, Gaurav Trivedi and Z. Nemec", "title": "A Scalable and Adaptive Convolutional Neural Network Accelerator", "venue": "32nd International Conference Radioelektronika (RADIOELEKTRONIKA), Kosice, Slovakia", "year": "2022", "pages": "1-5", "doi": "10.1109/RADIOELEKTRONIKA54537.2022.9764951" },
+      { "authors": "S. M. Mishra, H. S. Shekhawat, Gaurav Trivedi, P. Jan and Z. Nemec", "title": "Design and Implementation of a Low Power Area Efficient Bfloat16 based CORDIC Processor", "venue": "32nd International Conference Radioelektronika (RADIOELEKTRONIKA), Kosice, Slovakia", "year": "2022", "pages": "1-6", "doi": "10.1109/RADIOELEKTRONIKA54537.2022.9764911" },
+      { "authors": "R. Parmar, M. Janveja, Gaurav Trivedi, P. Jan and Z. Nemec", "title": "An Area and Power Efficient VLSI Architecture to Detect Obstructive Sleep Apnea for Wearable Devices", "venue": "32nd International Conference Radioelektronika (RADIOELEKTRONIKA), Kosice, Slovakia", "year": "2022", "pages": "1-5", "doi": "10.1109/RADIOELEKTRONIKA54537.2022.9764917" },
       { "authors": "Berihu Gebreyohannes Abreha, Pinakeswar Mahanta, and Gaurav Trivedi", "title": "Performance improvement techniques in shell-and-tube type of LHS", "venue": "Int. Conference on Recent Trends in Thermo-fluids and Renewable Energy, Arunachal Pradesh", "year": "Nov 2020 (Accepted)" },
       { "authors": "Shikhar Gupta, Arpan Vyas, and Gaurav Trivedi", "title": "FPGA Implementation of Simplified Spiking Neural Network", "venue": "27th IEEE International Conference on Electronics Circuits and Systems (ICECS), Glasgow Scotland", "year": "Nov 2020" },
       { "authors": "Meenali Janveja et al.", "title": "Design of Efficient AES Architecture for Secure ECG Signal Transmission for Low-power IoT Applications", "venue": "IEEE 30th International Conference Radioelektronika", "year": "April 2020" },
