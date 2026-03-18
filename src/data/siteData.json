@@ -759,214 +759,58 @@
       }
     ],
     "journals": [
-      {
-        "authors": "S. M. Mishra, H. S. Shekhawat, J. Pidanic and G. Trivedi",
-        "title": "FPGA-Based Adaptive LIF Neuron for High-Speed, Energy-Efficient Spiking Neural Network",
-        "venue": "IEEE Transactions on Circuits and Systems for Artificial Intelligence",
-        "year": "2025",
-        "doi": "10.1109/TCASAI.2025.3568365"
-      },
-      {
-        "authors": "B. Boro, R. Parmar and G. Trivedi",
-        "title": "Vector-Matrix Multiplier Architecture for In-Memory Computing Applications with RRAM Arrays",
-        "venue": "IEEE Transactions on Nanotechnology",
-        "year": "2025",
-        "volume": "24",
-        "pages": "249-259",
-        "doi": "10.1109/TNANO.2025.3560912"
-      },
-      {
-        "authors": "A. D. Roshan, P. Guha and G. Trivedi",
-        "title": "Hardware-Optimized Regression Tree-Based Sigmoid and Tanh Functions for Machine Learning Applications",
-        "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs",
-        "year": "2024",
-        "doi": "10.1109/TCSII.2024.3485493"
-      },
-      {
-        "authors": "M. Janveja et al.",
-        "title": "A Low-Power Co-Processor to Predict Ventricular Arrhythmia for Wearable Healthcare Devices",
-        "venue": "IEEE Transactions on VLSI Systems",
-        "year": "2024",
-        "volume": "32",
-        "issue": "9",
-        "pages": "1672-1683",
-        "doi": "10.1109/TVLSI.2024.3413584"
-      },
-      {
-        "authors": "R. Parmar et al.",
-        "title": "An SNN-Inspired Area- and Power-Efficient VLSI Architecture of Myocardial Infarction Classifier for Wearable Devices",
-        "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs",
-        "year": "2024",
-        "volume": "71",
-        "issue": "6",
-        "pages": "3191-3195",
-        "doi": "10.1109/TCSII.2024.3355016"
-      },
-      {
-        "authors": "Chakraborty, B., Borgohain, M.M., Saikia, E. et al.",
-        "title": "First-Principles Study of the Electronic and Optical Properties of Sn-BeO Heterostructure",
-        "venue": "J. Electron. Mater.",
-        "year": "2024",
-        "doi": "10.1007/s11664-024-11031-x"
-      },
-      {
-        "authors": "A. Dongre, B. Boro and G. Trivedi",
-        "title": "ADC-Less Reprogrammable RRAM Array Architecture for In-Memory Computing",
-        "venue": "IEEE Transactions on VLSI Systems",
-        "year": "2023",
-        "volume": "31",
-        "issue": "12",
-        "pages": "2053-2060"
-      },
-      {
-        "authors": "M. Janveja et al.",
-        "title": "An Optimized Low-Power VLSI Architecture for ECG/VCG Data Compression for IoHT Wearable Device Application",
-        "venue": "IEEE Transactions on VLSI Systems",
-        "year": "2023",
-        "volume": "31",
-        "issue": "12",
-        "pages": "2008-2015",
-        "doi": "10.1109/TVLSI.2023.3314611"
-      },
-      {
-        "authors": "S. S. P. Goswami and G. Trivedi",
-        "title": "FPGA Implementation of Modified SNOW 3G Stream Ciphers Using Fast and Resource Efficient Substitution Box",
-        "venue": "IEEE Embedded Systems Letters",
-        "year": "2023",
-        "volume": "15",
-        "issue": "4",
-        "pages": "238-241",
-        "doi": "10.1109/LES.2023.3298743"
-      },
-      {
-        "authors": "A. Dongre and G. Trivedi",
-        "title": "Variation Tolerant RRAM Based Synaptic Architecture for On-Chip Training",
-        "venue": "IEEE Transactions on Nanotechnology",
-        "year": "2023",
-        "volume": "22",
-        "pages": "436-444",
-        "doi": "10.1109/TNANO.2023.3298962"
-      },
-      {
-        "authors": "Sukanta Dey, Sukumar Nandi, and Gaurav Trivedi",
-        "title": "PGOpt: Multi-objective Design Space Exploration Framework for Large-Scale On-Chip Power Grid Design in VLSI SoC using Evolutionary Computing Technique",
-        "venue": "Microprocessors and Microsystems",
-        "year": "2020 (Accepted)"
-      },
-      {
-        "authors": "N. Y. Meitei, K. L. Baisnab, and Gaurav Trivedi",
-        "title": "A new 3D-IC partitioning method based on Genetic Algorithm",
-        "venue": "IET Circuits, Devices & Systems",
-        "year": "July 2020 (Accepted)"
-      },
-      {
-        "authors": "A. G. Berihu, Pinakeswar Mahanta, and Gaurav Trivedi",
-        "title": "Thermal performance evaluation of multi-tube cylindrical LHS system",
-        "venue": "Applied Thermal Engineering, Elsevier",
-        "year": "June 2020 (Accepted)"
-      },
-      {
-        "authors": "Krishna Mohan Dwivedi, Gaurav Trivedi, Sunil K Khijwania, and Tomasz Osuch",
-        "title": "Design and Performance Analysis of a High Sensitive Ultrasonic Acoustic sensor based on pi-phase-shifted Fiber Bragg Grating and Fiber Mach-Zehnder Interferometer Interrogation",
-        "venue": "Metrology and Measurement Systems",
-        "year": "June 2020 (Accepted)"
-      },
-      {
-        "authors": "Sukanta Dey, Sukumar Nandi, and Gaurav Trivedi",
-        "title": "Machine Learning Approach for Fast Electromigration Aware Aging Prediction in Incremental Design of Large Scale On-Chip Power Grid Network",
-        "venue": "ACM Transactions on Design Automation of Electronic Systems (TODAES)",
-        "year": "May 2020 (Accepted)"
-      },
-      {
-        "authors": "S. Hussain, R. Kumar, and Gaurav Trivedi",
-        "title": "Methodology and Comparative design of an efficient 4-bit Encoder with bubble error corrector for 1-GSPS Flash type ADC",
-        "venue": "IET Circuits, Devices & Systems",
-        "year": "May 2020"
-      },
-      {
-        "authors": "Ashok Kumar Ray, Sushanta Bordoloi et al.",
-        "title": "Numerical Simulation of Enhanced-Reliability Filleted-Gate AlGaN/GaN HEMT",
-        "venue": "Journal of Electronic Materials, Vol. 49, pp. 2018-2031",
-        "year": "May 2020"
-      },
-      {
-        "authors": "Krishna Mohan Dwivedi, Tomasz Osuch, and Gaurav Trivedi",
-        "title": "High Sensitive and Large Dynamic Range Quasi-Distributed Sensing System Based on Slow-Light p-phase-shifted Fiber Bragg Grating",
-        "venue": "Opto-Electronics Review, vol. 27, pp. 233-240",
-        "year": "July 2019"
-      },
-      {
-        "authors": "Sunil Dutt, Satyabrata Dash, Sukumar Nandi, and Gaurav Trivedi",
-        "title": "Analysis, Modeling and Optimization of Equal Segment Based Approximate Adders",
-        "venue": "IEEE Transactions on Computers, Vol. 68, pp. 314-330",
-        "year": "March 2019"
-      },
-      {
-        "authors": "Sameer Pawanekar, Kalpesh Kapoor, Gaurav Trivedi",
-        "title": "Kapees3: A High-Quality VLSI Standard Cell Placement Tool using Modified Nesterov's Method for Density Penalty",
-        "venue": "World Scientific Journal of Circuits, Systems and Computers, Vol. 27, Issue 08",
-        "year": "July 2018"
-      },
-      {
-        "authors": "Dheeraj Kumar Sinha et al.",
-        "title": "Fast Ionization-front Induced Anomalous Switching Behavior in Trigger Bipolar Transistors of Marx-bank Circuits Under Base-drive Conditions",
-        "venue": "IEEE Transactions on Plasma Science, Vol. 46, Issue 6, pp. 2064-2071",
-        "year": "June 2018"
-      },
-      {
-        "authors": "Satyabrata Dash, Deepak Joshi, and Gaurav Trivedi",
-        "title": "Multiobjective Analog/RF Circuit Sizing using an Improved Brain Storm Optimization Algorithm",
-        "venue": "Memetic Computing. DOI: 10.1007/s12293-018-0262-9",
-        "year": "May 2018"
-      },
-      {
-        "authors": "Sunil Dutt, Sukumar Nandi, and Gaurav Trivedi",
-        "title": "Accuracy Enhancement of Equal Segment Based Approximate Adders",
-        "venue": "IET Computers & Digital Techniques, Vol. 12, Issue 5, pp. 206-215",
-        "year": "September 2018"
-      },
-      {
-        "authors": "Satyabrata Dash et al.",
-        "title": "Minimizing Area of VLSI Power Distribution Networks Using River Formation Dynamics",
-        "venue": "Journal of Systems and Information Technology, Vol. 20, Issue 4, pp. 417-429",
-        "year": "February 2018"
-      },
-      {
-        "authors": "Satyabrata Dash, Deepak Joshi, Ayushparth Sharma, and Gaurav Trivedi",
-        "title": "A hierarchy in mutation of genetic algorithm and its application to multi-objective analog/RF circuit optimization",
-        "venue": "Analog Integrated Circuits and Signal Processing, Vol. 94, Issue 1, pp. 27-47",
-        "year": "January 2018"
-      },
-      {
-        "authors": "Sunil Dutt, Sukumar Nandi, Gaurav Trivedi",
-        "title": "Analysis and Design of Adders for Approximate Computing",
-        "venue": "ACM Transactions on Embedded Computing Systems, Article No. 40",
-        "year": "December 2017"
-      },
-      {
-        "authors": "Deepak Joshi et al.",
-        "title": "Analog circuit optimization using adjoint network based sensitivity analysis",
-        "venue": "Elsevier AEU - International Journal of Electronics and Communications, pp. 221-225",
-        "year": "December 2017"
-      },
-      {
-        "authors": "Praveen Tiwari et al.",
-        "title": "A Review on Microgrid Based on Hybrid Renewable Energy Sources in South-Asian Perspective",
-        "venue": "Technology and Economics of Smart Grids and Sustainable Energy, Springer",
-        "year": "July 2017"
-      },
-      {
-        "authors": "Sameer Pawanekar, Kalpesh Kapoor, Gaurav Trivedi",
-        "title": "NAP: A Nonlinear Hypergraph Partitioning Method",
-        "venue": "IETE Journal of Research, Taylor & Francis, pp. 60-70",
-        "year": "October 2016"
-      },
-      {
-        "authors": "Hemangee K. Kapoor, G. Bhoopal Rao, Sharique Arshi and Gaurav Trivedi",
-        "title": "A Security Framework for NoC Using Authenticated Encryption and Session Keys",
-        "venue": "Circuits, Systems and Signal Processing, Springer. DOI 10.1007/s00034-013-9568-5",
-        "year": "February 2013"
-      }
+      { "authors": "S. M. Mishra, H. S. Shekhawat, J. Pidanic and G. Trivedi", "title": "FPGA-Based Adaptive LIF Neuron for High-Speed, Energy-Efficient Spiking Neural Network", "venue": "IEEE Transactions on Circuits and Systems for Artificial Intelligence", "year": "2025", "doi": "10.1109/TCASAI.2025.3568365" },
+      { "authors": "B. Boro, R. Parmar and G. Trivedi", "title": "Vector-Matrix Multiplier Architecture for In-Memory Computing Applications with RRAM Arrays", "venue": "IEEE Transactions on Nanotechnology", "year": "2025", "volume": "24", "pages": "249-259", "doi": "10.1109/TNANO.2025.3560912" },
+      { "authors": "A. D. Roshan, P. Guha and G. Trivedi", "title": "Hardware-Optimized Regression Tree-Based Sigmoid and Tanh Functions for Machine Learning Applications", "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs", "year": "2024", "doi": "10.1109/TCSII.2024.3485493" },
+      { "authors": "M. Janveja, R. Parmar, S. Dash, J. Pidanic and G. Trivedi", "title": "A Low-Power Co-Processor to Predict Ventricular Arrhythmia for Wearable Healthcare Devices", "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems", "year": "2024", "volume": "32", "issue": "9", "pages": "1672-1683", "doi": "10.1109/TVLSI.2024.3413584" },
+      { "authors": "R. Parmar, K. Yadav, G. Anand and G. Trivedi", "title": "An SNN-Inspired Area- and Power-Efficient VLSI Architecture of Myocardial Infarction Classifier for Wearable Devices", "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs", "year": "2024", "volume": "71", "issue": "6", "pages": "3191-3195", "doi": "10.1109/TCSII.2024.3355016" },
+      { "authors": "Chakraborty, B., Borgohain, M.M., Saikia, E. et al.", "title": "First-Principles Study of the Electronic and Optical Properties of Sn-BeO Heterostructure", "venue": "J. Electron. Mater. 53, 3746-3755", "year": "2024", "doi": "10.1007/s11664-024-11031-x" },
+      { "authors": "A. Dongre, B. Boro and G. Trivedi", "title": "ADC-Less Reprogrammable RRAM Array Architecture for In-Memory Computing", "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems", "year": "2023", "volume": "31", "issue": "12", "pages": "2053-2060" },
+      { "authors": "M. Janveja, A. K. Sharma, A. Bhardwaj, J. Pidanic and G. Trivedi", "title": "An Optimized Low-Power VLSI Architecture for ECG/VCG Data Compression for IoHT Wearable Device Application", "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems", "year": "2023", "volume": "31", "issue": "12", "pages": "2008-2015", "doi": "10.1109/TVLSI.2023.3314611" },
+      { "authors": "S. S. P. Goswami and G. Trivedi", "title": "FPGA Implementation of Modified SNOW 3G Stream Ciphers Using Fast and Resource Efficient Substitution Box", "venue": "IEEE Embedded Systems Letters", "year": "2023", "volume": "15", "issue": "4", "pages": "238-241", "doi": "10.1109/LES.2023.3298743" },
+      { "authors": "A. Dongre and Gaurav Trivedi", "title": "Variation Tolerant RRAM Based Synaptic Architecture for On-Chip Training", "venue": "IEEE Transactions on Nanotechnology", "year": "2023", "volume": "22", "pages": "436-444", "doi": "10.1109/TNANO.2023.3298962" },
+      { "authors": "R. Parmar, M. Janveja, J. Pidanic and Gaurav Trivedi", "title": "Design of DNN-Based Low-Power VLSI Architecture to Classify Atrial Fibrillation for Wearable Devices", "venue": "IEEE Transactions on Very Large-Scale Integration (VLSI) Systems", "year": "2023", "doi": "10.1109/TVLSI.2023.3236530" },
+      { "authors": "M. Janveja, R. Parmar and Gaurav Trivedi", "title": "MInSC: A VLSI Architecture for Myocardial Infarction Stages Classifier for Wearable Healthcare Applications", "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs", "year": "2022", "doi": "10.1109/TCSII.2022.3222738" },
+      { "authors": "A. Y. R., N. Raj and Gaurav Trivedi", "title": "A MOS-DTMOS Implementation of Floating Memristor Emulator for High-Frequency Applications", "venue": "IEEE Transactions on Very Large-Scale Integration (VLSI) Systems", "year": "2022", "doi": "10.1109/TVLSI.2022.3227201" },
+      { "authors": "A. Dongre and Gaurav Trivedi", "title": "RRAM Based Energy Efficient Scalable Integrate & Fire Neuron with Built-in Reset Circuit", "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs", "year": "2022", "doi": "10.1109/TCSII.2022.3219203" },
+      { "authors": "A. Y. R, G. S. Satyanarayan and Gaurav Trivedi", "title": "A High Frequency MOS-based Floating Charge-Controlled Memcapacitor Emulator", "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs", "year": "2022", "doi": "10.1109/TCSII.2022.3221334" },
+      { "authors": "B. Paul, T. K. Yadav, B. Singh, S. Krishnaswamy and Gaurav Trivedi", "title": "A Resource Efficient Software-Hardware Co-Design of Lattice-Based Homomorphic Encryption Scheme on the FPGA", "venue": "IEEE Transactions on Computers", "year": "2022", "doi": "10.1109/TC.2022.3198628" },
+      { "authors": "B. Paul, A. Nath, S. Krishnaswamy, J. Pidanic, Z. Nemec and Gaurav Trivedi", "title": "Tensor Based Multivariate Polynomial Modulo Multiplier for Cryptographic Applications", "venue": "IEEE Transactions on Computers", "year": "2022", "doi": "10.1109/TC.2022.3215638" },
+      { "authors": "B. Paul, S. Pal, A. Agrawal and Gaurav Trivedi", "title": "Triple Pendulum Based Nonlinear Chaos Generator and its Applications in Cryptography", "venue": "IEEE Access", "year": "2022", "volume": "10", "pages": "127073-127093", "doi": "10.1109/ACCESS.2022.3226515" },
+      { "authors": "Pritam Bhattacharjee, Gaurav Trivedi and Alak Majumder", "title": "On-chip supply noise in multiprocessors: impact and clock gating inspired mitigation strategies", "venue": "International Journal of Electronics", "year": "2022", "doi": "10.1080/00207217.2022.2158493" },
+      { "authors": "A. Y. R., G. S. Satyanarayan and Gaurav Trivedi", "title": "A Flux Controlled MOS-Based Optimized High Frequency Meminductor Emulator", "venue": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems", "year": "2022", "volume": "12", "issue": "4", "pages": "774-784", "doi": "10.1109/JETCAS.2022.3221305" },
+      { "authors": "A. Y. R., G. S. Satyanarayan and Gaurav Trivedi", "title": "An Optimized MOS-Based High Frequency Charge-Controlled Memcapacitor Emulator", "venue": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems", "year": "2022", "volume": "12", "issue": "4", "pages": "793-803", "doi": "10.1109/JETCAS.2022.3221314" },
+      { "authors": "Tomas Krejci, Tomas Zalabsky, Dusan Kopecky, Gaurav Trivedi", "title": "Application of hash function for generation of modulation data in RadCom system", "venue": "Digital Signal Processing", "year": "2022", "volume": "130", "pages": "103735", "doi": "10.1016/j.dsp.2022.103735" },
+      { "authors": "S. Bordoloi, A. Ray and Gaurav Trivedi", "title": "Access Region Stack Engineering for Mitigation of Degradation in AlGaN/GaN HEMTs with Field Plate", "venue": "IEEE Transactions on Device and Materials Reliability", "year": "2022", "volume": "22", "issue": "1", "pages": "73-84", "doi": "10.1109/TDMR.2022.3150714" },
+      { "authors": "K.M. Dwivedi, G. Trivedi and S.K. Khijwania", "title": "Fiber Bragg grating employing novel apodization profile: performance optimization for quasi-distributed sensing applications", "venue": "Optical and Quantum Electronics", "year": "2022", "volume": "54", "pages": "338", "doi": "10.1007/s11082-022-03691-y" },
+      { "authors": "M. Janveja, R. Parmar, M. Tantuway and Gaurav Trivedi", "title": "A DNN Based Low Power ECG Co-Processor Architecture to Classify Cardiac Arrhythmia for Wearable Devices", "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs", "year": "2022", "volume": "69", "issue": "4", "pages": "2281-2285", "doi": "10.1109/TCSII.2022.3146036" },
+      { "authors": "Sumit Agarwal, Shaik Rafi Ahamed, Anup Kumar Gogoi and Gaurav Trivedi", "title": "28 Gbps Radix-16, 512-point FFT Processor based Continuous Streaming OFDM for WiGig", "venue": "Circuits, Systems, and Signal Processing", "year": "2021", "volume": "41", "pages": "2871-2897", "doi": "10.1007/s00034-021-01917-0" },
+      { "authors": "S. Agarwal, S. R. Ahamed, A. K. Gogoi and Gaurav Trivedi", "title": "A Low-Complexity Shifting-Based Conflict-Free Memory-Addressing Architecture for Higher-Radix FFT", "venue": "IEEE Access", "year": "2021", "volume": "9", "pages": "140349-140357", "doi": "10.1109/ACCESS.2021.3119598" },
+      { "authors": "Meenali Janveja, Gaurav Trivedi", "title": "An area and power efficient VLSI architecture for ECG feature extraction for wearable IoT healthcare applications", "venue": "Integration", "year": "2022", "volume": "82", "pages": "96-103", "doi": "10.1016/j.vlsi.2021.09.006" },
+      { "authors": "Swati Shukla, Abhishek Agrawal, Balbir Singh, Gaurav Trivedi", "title": "An FPGA based electromagnetic transient analysis of power distribution network", "venue": "Electric Power Systems Research", "year": "2022", "volume": "202", "pages": "107577", "doi": "10.1016/j.epsr.2021.107577" },
+      { "authors": "S. Bordoloi, A. Ray and Gaurav Trivedi", "title": "Introspection into Reliability Aspects in AlGaN/GaN HEMTs With Gate Geometry Modification", "venue": "IEEE Access", "year": "2021", "volume": "9", "pages": "99828-99841", "doi": "10.1109/ACCESS.2021.3096988" },
+      { "authors": "Sukanta Dey, Sukumar Nandi, and Gaurav Trivedi", "title": "PGOpt: Multi-objective Design Space Exploration Framework for Large-Scale On-Chip Power Grid Design in VLSI SoC using Evolutionary Computing Technique", "venue": "Microprocessors and Microsystems", "year": "2021", "volume": "81", "pages": "103440", "doi": "10.1016/j.micpro.2020.103440" },
+      { "authors": "N. Y. Meitei, K. L. Baisnab, and Gaurav Trivedi", "title": "A new 3D-IC partitioning method based on Genetic Algorithm", "venue": "IET Circuits, Devices & Systems", "year": "2020", "volume": "14", "issue": "7", "pages": "1104-1109", "doi": "10.1049/iet-cds.2020.0128" },
+      { "authors": "A. G. Berihu, Pinakeswar Mahanta, Gaurav Trivedi", "title": "Thermal performance evaluation of multi-tube cylindrical LHS system", "venue": "Applied Thermal Engineering", "year": "2020", "volume": "179", "pages": "115743", "doi": "10.1016/j.applthermaleng.2020.115743" },
+      { "authors": "Sukanta Dey, Sukumar Nandi, Gaurav Trivedi", "title": "Machine Learning Approach for Fast Electromigration Aware Aging Prediction in Incremental Design of Large Scale On-Chip Power Grid Network", "venue": "ACM Transactions on Design Automation of Electronic Systems (TODAES)", "year": "2020", "volume": "25", "issue": "5", "pages": "1-29", "doi": "10.1145/3399677" },
+      { "authors": "A. G. Berihu, Pinakeswar Mahanta, Gaurav Trivedi", "title": "Performance Investigation of lab-scale shell and tube LHS prototype", "venue": "Journal of Energy Storage", "year": "2020", "volume": "31", "pages": "101527", "doi": "10.1016/j.est.2020.101527" },
+      { "authors": "Krishna Mohan Dwivedi, Gaurav Trivedi, Sunil K Khijwania, and Tomasz Osuch", "title": "Design and Performance Analysis of a High Sensitive Ultrasonic Acoustic sensor based on pi-phase-shifted Fiber Bragg Grating and Fiber Mach-Zehnder Interferometer Interrogation", "venue": "Metrology and Measurement Systems", "year": "2020", "volume": "27", "issue": "2", "pages": "289-300", "doi": "10.24425/mms.2020.132775" },
+      { "authors": "S. Hussain, R. Kumar, Gaurav Trivedi", "title": "Methodology and Comparative design of an efficient 4-bit Encoder with bubble error corrector for 1-GSPS Flash type ADC", "venue": "IET Circuits, Devices & Systems", "year": "2020", "pages": "629-639", "doi": "10.1049/iet-cds.2019.0499" },
+      { "authors": "Ashok Kumar Ray, Sushanta Bordoloi, Biplab Sarkar, Pratima Agarwal, Gaurav Trivedi", "title": "Numerical Simulation of Enhanced-Reliability Filleted-Gate AlGaN/GaN HEMT", "venue": "Journal of Electronic Materials", "year": "2020", "volume": "49", "pages": "2018-2031", "doi": "10.1007/s11664-019-07905-0" },
+      { "authors": "Krishna Mohan Dwivedi, Tomasz Osuch, and Gaurav Trivedi", "title": "High Sensitive and Large Dynamic Range Quasi-Distributed Sensing System Based on Slow-Light p-phase-shifted Fiber Bragg Grating", "venue": "Opto-Electronics Review", "year": "2019", "volume": "27", "issue": "3", "pages": "233-240" },
+      { "authors": "Sunil Dutt, Satyabrata Dash, Sukumar Nandi and Gaurav Trivedi", "title": "Analysis, Modeling and Optimization of Equal Segment Based Approximate Adders", "venue": "IEEE Transactions on Computers", "year": "2019", "volume": "68", "pages": "314-330", "doi": "10.1109/TC.2018.2871096" },
+      { "authors": "Sameer Pawanekar, Kalpesh Kapoor, Gaurav Trivedi", "title": "Kapees3: A High-Quality VLSI Placement Tool Using Nesterov's Method for Density Penalty", "venue": "World Scientific Journal of Circuits, Systems and Computers", "year": "2018", "volume": "27", "issue": "08", "doi": "10.1142/S0218126618501220" },
+      { "authors": "Satyabrata Dash, Deepak Joshi, Gaurav Trivedi", "title": "Multiobjective Analog/RF Circuit Sizing using an Improved Brain Storm Optimization Algorithm", "venue": "Memetic Computing", "year": "2018", "doi": "10.1007/s12293-018-0262-9" },
+      { "authors": "Satyabrata Dash, Sukanta Dey, Deepak Joshi, Gaurav Trivedi", "title": "Minimizing Area of VLSI Power Distribution Networks Using River Formation Dynamics", "venue": "Journal of Systems and Information Technology", "year": "2018", "volume": "20", "issue": "4", "pages": "417-429" },
+      { "authors": "Satyabrata Dash, Deepak Joshi, Gaurav Trivedi", "title": "Multiobjective Analog/RF Circuit Sizing using an Improved Brain Storm Optimization Algorithm", "venue": "Memetic Computing", "year": "2018", "volume": "10", "pages": "423-440" },
+      { "authors": "Sunil Dutt, Sukumar Nandi, Gaurav Trivedi", "title": "Accuracy Enhancement of Equal Segment Based Approximate Adders", "venue": "IET Computers & Digital Techniques", "year": "2018", "volume": "12", "issue": "5", "pages": "206-215" },
+      { "authors": "Dheeraj Kumar Sinha, M. S. Ansari, Ashok Ray, Gaurav Trivedi, Amitabh Chatterjee, and Ronald D. Schrimpf", "title": "Fast Ionization-front Induced Anomalous Switching Behavior in Trigger Bipolar Transistors of Marx-bank Circuits Under Base-drive Conditions", "venue": "IEEE Transactions on Plasma Science", "year": "2018", "volume": "46", "issue": "6", "pages": "2064-2071" },
+      { "authors": "Sunil Dutt, Sukumar Nandi, Gaurav Trivedi", "title": "Analysis and Design of Adders for Approximate Computing", "venue": "ACM Transactions on Embedded Computing Systems (TECS)", "year": "2018", "volume": "17", "issue": "2" },
+      { "authors": "Satyabrata Dash, Deepak Joshi, Ayushparth Sharma, Gaurav Trivedi", "title": "A hierarchy in mutation of genetic algorithm and its application to multi-objective analog/RF circuit optimization", "venue": "Analog Integrated Circuits and Signal Processing", "year": "2018", "volume": "94", "issue": "1", "pages": "27-47" },
+      { "authors": "Deepak Joshi, Satyabrata Dash, H. S. Jatana, Ratnajit Bhattacharjee, Gaurav Trivedi", "title": "Analog circuit optimization using adjoint network based sensitivity analysis", "venue": "AEU - International Journal of Electronics and Communications", "year": "2017", "pages": "221-225" },
+      { "authors": "Praveen Tiwari, Munish Manas, Jan Pidanic, Zdenek Nemec, Radovan Dolecek, Pinakeswar Mahanta, Gaurav Trivedi", "title": "A Review on Microgrid Based on Hybrid Renewable Energy Sources in South-Asian Perspective", "venue": "Technology and Economics of Smart Grids and Sustainable Energy", "year": "2017", "volume": "2", "pages": "10" },
+      { "authors": "Sameer Pawanekar, Kalpesh Kapoor and Gaurav Trivedi", "title": "NAP: A Nonlinear Analytical Hypergraph Partitioning Method", "venue": "IETE Journal of Research", "year": "2016", "pages": "60-70" },
+      { "authors": "Hemangee K. Kapoor, G. Bhoopal Rao, Sharique Arshi and Gaurav Trivedi", "title": "A Security Framework for NoC Using Authenticated Encryption and Session Keys", "venue": "Circuits, Systems and Signal Processing", "year": "2013", "doi": "10.1007/s00034-013-9568-5" }
     ],
   "conferences": [
     {

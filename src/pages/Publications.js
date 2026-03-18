@@ -23,7 +23,12 @@ function TypeBadge({ label }) {
   );
 }
 
-function PubItem({ index, authors, title, venue, year, award, type }) {
+function PubItem({ index, authors, title, venue, year, pages, volume, issue, doi, note, award, type }) {
+  const details = [];
+  if (volume) details.push(`Vol. ${volume}`);
+  if (issue) details.push(`Issue ${issue}`);
+  if (pages) details.push(`Pages ${pages}`);
+
   return (
     <div className="flex gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors group border border-transparent hover:border-gray-100">
       <span className="shrink-0 w-7 h-7 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center text-xs font-bold group-hover:bg-primary-200 transition-colors">{index}</span>
@@ -31,6 +36,21 @@ function PubItem({ index, authors, title, venue, year, award, type }) {
         <p className="text-sm text-gray-500 font-medium">{authors}</p>
         <p className="text-sm font-semibold text-gray-800 mt-0.5 leading-snug">&ldquo;{title}&rdquo;</p>
         <p className="text-xs text-gray-500 mt-1">{venue}{year ? ` · ${year}` : ''}</p>
+        {details.length > 0 && <p className="text-xs text-gray-500 mt-0.5">{details.join(' · ')}</p>}
+        {doi && (
+          <p className="text-xs text-gray-500 mt-0.5 break-all">
+            DOI:{' '}
+            <a
+              href={`https://doi.org/${doi.replace(/^https?:\/\/doi\.org\//i, '').replace(/^doi:\s*/i, '')}`}
+              target="_blank"
+              rel="noreferrer"
+              className="text-primary-700 hover:underline"
+            >
+              {doi}
+            </a>
+          </p>
+        )}
+        {note && <p className="text-xs text-gray-500 mt-0.5">{note}</p>}
         {award && <AwardBadge label={award}/>}
         {type && <TypeBadge label={type}/>}
       </div>
