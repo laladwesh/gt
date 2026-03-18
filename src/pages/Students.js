@@ -36,10 +36,11 @@ export default function Students() {
         </div>
 
         {activeTab === 'phd-ongoing' && (
-          <div className="space-y-4">
+          <div>
             <p className="text-sm text-gray-500 mb-4">{students.ongoingPhD.length} current research scholars</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {students.ongoingPhD.map((s,i) => (
-              <div key={i} className="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-primary-100 transition-all p-6">
+              <div key={i} className="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-primary-100 transition-all p-6 h-full">
                 <div className="flex items-start gap-4">
                   <InitialAvatar name={s.name} size="lg"/>
                   <div className="flex-1">
@@ -57,13 +58,14 @@ export default function Students() {
                 </div>
               </div>
             ))}
+            </div>
           </div>
         )}
 
         {activeTab === 'phd-completed' && (
-          <div className="space-y-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {students.completedPhD.map((s,i) => (
-              <div key={i} className="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-primary-100 transition-all p-5">
+              <div key={i} className="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md hover:border-primary-100 transition-all p-5 h-full">
                 <div className="flex items-start gap-4">
                   <InitialAvatar name={s.name} size="md"/>
                   <div className="flex-1">
@@ -81,44 +83,52 @@ export default function Students() {
         )}
 
         {activeTab === 'mtech' && (
-          <div className="space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
+              <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-5 h-full">
               <h3 className="text-sm font-semibold text-primary-700 uppercase tracking-wider mb-3">Ongoing ({students.mtechOngoing.length})</h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {students.mtechOngoing.map((name,i) => (
                   <span key={i} className="bg-blue-50 text-blue-800 border border-blue-100 text-xs font-medium px-3 py-1.5 rounded-lg">{name}</span>
                 ))}
               </div>
+              </div>
             </div>
             <div>
+              <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-5 h-full">
               <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">Completed ({students.mtechCompleted.length})</h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {students.mtechCompleted.map((name,i) => (
                   <span key={i} className="bg-gray-100 text-gray-700 border border-gray-200 text-xs font-medium px-3 py-1.5 rounded-lg">{name}</span>
                 ))}
+              </div>
               </div>
             </div>
           </div>
         )}
 
         {activeTab === 'btech' && (
-          <div className="space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
+              <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-5 h-full">
               <h3 className="text-sm font-semibold text-primary-700 uppercase tracking-wider mb-3">Ongoing ({students.btechOngoing.length})</h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {students.btechOngoing.map((s,i) => (
                   <span key={i} className="bg-blue-50 text-blue-800 border border-blue-100 text-xs font-medium px-3 py-1.5 rounded-lg">{s.name} <span className="text-blue-500">({s.year})</span></span>
                 ))}
               </div>
+              </div>
             </div>
             <div>
+              <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-5 h-full">
               <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">Completed ({students.btechCompleted.length})</h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {students.btechCompleted.map((s,i) => (
                   <span key={i} className={`bg-gray-100 border border-gray-200 text-xs font-medium px-3 py-1.5 rounded-lg ${s.note ? 'text-accent-700 bg-accent-50 border-accent-200' : 'text-gray-700'}`}>
                     {s.name} <span className="text-gray-400">({s.year})</span>{s.note && <span className="ml-1 font-bold"> — {s.note}</span>}
                   </span>
                 ))}
+              </div>
               </div>
             </div>
           </div>
