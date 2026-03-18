@@ -1,4 +1,4 @@
-{
+﻿{
   "profile": {
     "name": "Dr. Gaurav Trivedi",
     "gender": "Male",
@@ -1413,6 +1413,48 @@
   "students": {
     "ongoingPhD": [
       {
+        "name": "Ankita Tiwari",
+        "status": "Ongoing",
+        "bio": "Ms. Ankita Tiwari received BTech degree in Electronics and Communication Engineering from A. P. J. Abdul Kalam Technical University, U.P., India, in 2015 and MTech degree in Embedded System and Technology from Amity University, U.P., India, in 2018. She is a PhD student in the Department of Electronics and Electrical Engineering, Indian Institute of Technology Guwahati, India. Her research interests include computer architecture, machine learning and VLSI system design.",
+        "coSupervisor": "Prof. Prithwijit Guha",
+        "yearOfJoining": ""
+      },
+      {
+        "name": "Amit Kumar Singh",
+        "status": "Ongoing",
+        "bio": "Mr. Amit Kumar Singh received BTech degree in Electronics and Communication Engineering from National Institute of Technology Meghalaya, India, in 2016 and MTech degree in Microelectronics and VLSI Design from National Institute of Technology Sikkim, India, in 2018. He enrolled as a PhD student in the Department of Electronics and Electrical Engineering, Indian Institute of Technology Guwahati, India, in 2018. His research interests include numerical analysis of semiconductor devices, VLSI CAD, and digital circuits and systems.",
+        "coSupervisor": "",
+        "yearOfJoining": "2018"
+      },
+      {
+        "name": "Saras Mani Mishra",
+        "status": "Ongoing",
+        "bio": "Mr. Saras Mani Mishra completed BTech in Instrumentation and Control Engineering from Haldia Institute of Technology, West Bengal, India, in 2015 and MTech in Instrumentation Engineering from National Institute of Technology Silchar, India, in 2019. He is pursuing PhD in the Department of Electronics and Electrical Engineering at the Indian Institute of Technology Guwahati, India. His research interests include VLSI circuits and system design and control systems.",
+        "coSupervisor": "Prof. Hanumant Singh Shekhawat",
+        "yearOfJoining": ""
+      },
+      {
+        "name": "Bipul Boro",
+        "status": "Ongoing",
+        "bio": "Mr. Bipul Boro completed BTech in Electronics and Communication Engineering from Central Institute of Technology, Kokrajhar, Assam, India, in 2016 and MTech in VLSI from National Institute of Technology Goa, India, in 2019. He is pursuing PhD in the Department of Electronics and Electrical Engineering at the Indian Institute of Technology Guwahati, India. His research interests include VLSI system design, high performance computing, and hardware security.",
+        "coSupervisor": "",
+        "yearOfJoining": "2019"
+      },
+      {
+        "name": "Parmita Roy",
+        "status": "Ongoing",
+        "bio": "Ms. Parmita Roy completed her B.E. degree in Electronics and Telecommunication Engineering from Jorhat Institute of Science and Technology, Assam, India, in 2016 and M.Tech in Microelectronics and VLSI from National Institute of Technology, Durgapur, West Bengal, India, in 2019. She enrolled as a PhD student in the Department of Electronics and Electrical Engineering, Indian Institute of Technology Guwahati, India. Her research interests include semiconductor devices, VLSI CAD, and VLSI circuits and systems.",
+        "coSupervisor": "",
+        "yearOfJoining": ""
+      },
+      {
+        "name": "Apurba Bikash Kalita",
+        "status": "Ongoing",
+        "bio": "Mr. Apurba Bikash Kalita received B.E. in Electronics and Telecommunication Engineering from Assam Engineering College, Jalukbari, Assam, in 2002 and M.Tech in Electronics Design and Technology from Tezpur University in 2006. He worked at OIL India Limited as a Telecom Engineer for four years, later joined Dibrugarh University briefly, and has been serving at GUIST, Gauhati University since 2011. He is enrolled as a research scholar and his research interests include microelectronics and artificial intelligence.",
+        "coSupervisor": "Prof. Subhash Chandra Rajbongshi, GUIST, Gauhati University",
+        "yearOfJoining": ""
+      },
+      {
         "name": "Shashanka Handique",
         "status": "Ongoing",
         "bio": "He did his Bachelors of Engineering from Assam Engineering College, Guwahati, Assam in Electronics and Communication Engineering. He developed a keen interest in VLSI during his time in Assam Engineering College. After coming to IIT Guwahati, he got interested in Digital Architecture, currently exploring the ML architectures to be implemented on Hardware. His goal is to design an SoC.",
@@ -1462,13 +1504,6 @@
         "yearOfJoining": "2024"
       },
       {
-        "name": "Parmita Roy",
-        "status": "Thesis to be submitted",
-        "bio": "",
-        "coSupervisor": "-",
-        "yearOfJoining": "-"
-      },
-      {
         "name": "Shailesh Chandra Pandey",
         "status": "Ongoing",
         "bio": "Shailesh Chandra Pandey is a PhD Scholar in Digital VLSI Design at IIT Guwahati. He received his M.Tech from Gautam Buddha University, Noida, and B.Tech from UPTU Lucknow. His research focuses on Machine Learning Hardware Accelerators and Digital ML Architectures. His goal is to develop optimized SoC platforms integrating intelligent ML accelerators.",
@@ -1516,13 +1551,6 @@
         "bio": "Ms. Aditi Chakraborty received her M.Tech and B.Tech degree in Electronics & Communication Engineering from National Institute of Technology, Jalandhar and B P Poddar Institute of Management and Technology respectively. Her research interest includes low-frequency Analog and Mixed-signal VLSI circuit and neuromorphic hardware design.",
         "coSupervisor": "",
         "yearOfJoining": "2023"
-      },
-      {
-        "name": "Bipul Boro",
-        "status": "Thesis Submitted",
-        "bio": "Mr. Bipul Boro has received his B.Tech degree in Electronics and Communication Engineering from the Central Institute of Technology, Kokrajhar, Assam, India, in 2016. He has received M.Tech degree in Very Large Scale Integration (VLSI) from the National Institute of Technology, Goa, India, in 2019. Currently, he is a Research Scholar at the Indian Institute of Technology, Guwahati, Assam, India. His research areas include Digital and Analog circuit design, Approximate Computing, In-Memory Computing and Neuromorphic Computing architectures. He has received 'Best Paper Award' in 2024 25th International Symposium on Quality Electronic Design (ISQED), San Francisco, CA, USA.",
-        "coSupervisor": "",
-        "yearOfJoining": "2019"
       },
       {
         "name": "Akash Dev Roshan",
