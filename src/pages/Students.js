@@ -52,7 +52,7 @@ export default function Students() {
                     </div>
                     <p className="text-xs font-semibold text-gray-500 mt-2 mb-2 uppercase tracking-wide">Research Area</p>
                     <p className="text-xs text-primary-700 bg-primary-50 px-3 py-1.5 rounded-lg font-medium inline-block">{s.area}</p>
-                    <p className="text-sm text-gray-600 mt-3 leading-relaxed">{s.bio}</p>
+                    {/* <p className="text-sm text-gray-600 mt-3 leading-relaxed">{s.bio}</p> */}
                   </div>
                 </div>
               </div>
