@@ -1,0 +1,56 @@
+# Render Blueprint — https://render.com/docs/blueprint-spec
+#
+# HOW TO DEPLOY ON RENDER (manual UI steps):
+# ─────────────────────────────────────────────────────────────────────
+#  1. Go to https://render.com → Dashboard → New + → Web Service
+#  2. Connect your GitHub repository
+#  3. Set these fields:
+#       Language / Environment : Docker
+#       Root Directory         : (leave BLANK — must be repo root)
+#       Dockerfile Path        : ./backend/Dockerfile
+#  4. Add Environment Variables (see list below)
+#  5. Click "Create Web Service"
+#
+# OR use Blueprint (auto mode):
+#  1. Dashboard → New + → Blueprint → connect repo
+#  2. Render reads this file and creates the service automatically.
+#     You still need to fill in the "sync: false" env vars in the dashboard.
+#
+# ⚠️  MongoDB: Render has NO managed MongoDB.
+#     Use MongoDB Atlas free tier → https://cloud.mongodb.com
+#     Create a free cluster, click "Connect", copy the connection string,
+#     paste it as MONGO_URI below.
+# ─────────────────────────────────────────────────────────────────────
+
+services:
+  - type: web
+    name: trivedi-backend
+    runtime: docker
+
+    # Dockerfile is inside backend/ but build context must be repo root
+    # so the Dockerfile can COPY src/data/siteData.json into the image.
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: .
+
+    envVars:
+      - key: PORT
+        value: 5000
+
+      # ── Set these in the Render dashboard → Environment tab ──────────────
+      - key: MONGO_URI
+        sync: false        # e.g. mongodb+srv://user:pass@cluster.mongodb.net/trivedi
+
+      - key: ADMIN_EMAIL
+        sync: false        # login email for /admin panel
+
+      - key: ADMIN_PASSWORD
+        sync: false        # login password for /admin panel
+
+      - key: SESSION_SECRET
+        generateValue: true  # Render auto-generates a secure random value
+
+      - key: CLIENT_URL
+        sync: false        # your React frontend URL, e.g. https://your-site.netlify.app
+
+    healthCheckPath: /     # GET / returns { message: "...API is running" }
+    autoDeploy: true       # redeploy automatically on every git push to main

@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  # ── MongoDB ────────────────────────────────────────────────────────────────────
+  mongo:
+    image: mongo:7
+    container_name: trivedi_mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: trivedi
+    healthcheck:
+      test: >
+        echo 'db.runCommand("ping").ok'
+        | mongosh localhost:27017/trivedi --quiet
+      interval: 10s
+      timeout: 10s
+      retries: 6
+      start_period: 20s
+
+  # ── Backend (seeded on every start) ──────────────────────────────────────────
+  backend:
+    build:
+      context: .                        # repo root — Docker needs src/data/ too
+      dockerfile: backend/Dockerfile    # Dockerfile lives inside backend/
+    container_name: trivedi_backend
+    restart: on-failure
+    ports:
+      - "5000:5000"
+    environment:
+      PORT: 5000
+      MONGO_URI: mongodb://mongo:27017/trivedi
+      SESSION_SECRET: local_dev_secret_change_in_prod
+      ADMIN_EMAIL: admin@trivedi.com
+      ADMIN_PASSWORD: admin123
+      CLIENT_URL: http://localhost:3000
+    depends_on:
+      mongo:
+        condition: service_healthy
+
+volumes:
+  mongo_data:
