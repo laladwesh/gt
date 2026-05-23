@@ -224,7 +224,7 @@ const app = express();
 app.use(admin.options.rootPath, adminRouter);
 
 app.use(cors({
-  origin:      process.env.CLIENT_URL || 'https://iitg.ac.in/trivedi',
+  origin:      process.env.CLIENT_URL || 'http://localhost:3000',
   credentials: true,
 }));
 app.use(express.json());
