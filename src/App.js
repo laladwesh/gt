@@ -12,7 +12,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/trivedi">
       <div className="flex flex-col min-h-screen bg-gray-50">
         <Navbar />
         <div className="flex-1">

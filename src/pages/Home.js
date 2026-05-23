@@ -31,7 +31,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-10 bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
             <div className="shrink-0">
               <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-accent-500 shadow-2xl bg-primary-600 flex items-center justify-center">
-                <img src="/gt.webp" alt={profile.name}/>
+                <img src="/trivedi/gt.webp" alt={profile.name}/>
               </div>
             </div>
             <div className="text-center md:text-left">
