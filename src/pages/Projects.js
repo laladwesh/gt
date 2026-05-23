@@ -1,4 +1,5 @@
-import data from '../data/siteData.json';
+import { useFetch } from '../hooks/useFetch';
+import Loader, { ErrorMsg } from '../components/Loader';
 
 const statusColors = {
   Completed: 'bg-green-100 text-green-700 border-green-200',
@@ -36,9 +37,17 @@ function ProjectCard({ title, joint, agency, duration, status, website }) {
 }
 
 export default function Projects() {
-  const { projects } = data;
-  const ongoing   = projects.sponsored.filter(p => p.status !== 'Completed');
-  const completed = projects.sponsored.filter(p => p.status === 'Completed');
+  const { data: projects, loading, error } = useFetch('/api/projects');
+
+  if (loading) return <Loader />;
+  if (error)   return <ErrorMsg message={error} />;
+  if (!projects) return null;
+
+  const sponsored   = projects.sponsored   || [];
+  const consultancy = projects.consultancy || [];
+  const ongoing     = sponsored.filter(p => p.status !== 'Completed');
+  const completed   = sponsored.filter(p => p.status === 'Completed');
+
   return (
     <main className="min-h-screen bg-gray-50 py-10 px-4">
       <div className="max-w-5xl mx-auto">
@@ -48,9 +57,9 @@ export default function Projects() {
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
           {[
-            { label: 'Total Projects', value: projects.sponsored.length + projects.consultancy.length },
-            { label: 'Sponsored',      value: projects.sponsored.length },
-            { label: 'Consultancy',    value: projects.consultancy.length },
+            { label: 'Total Projects', value: sponsored.length + consultancy.length },
+            { label: 'Sponsored',      value: sponsored.length },
+            { label: 'Consultancy',    value: consultancy.length },
             { label: 'Active',         value: ongoing.length },
           ].map((stat) => (
             <div key={stat.label} className="bg-white rounded-xl border border-gray-100 shadow-sm p-4 text-center">
@@ -78,7 +87,7 @@ export default function Projects() {
             <h2 className="text-xl font-bold text-primary-900">Consultancy Projects</h2>
             <div className="flex-1 h-px bg-primary-100"></div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">{projects.consultancy.map((p,i) => <ProjectCard key={i} {...p}/>)}</div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">{consultancy.map((p,i) => <ProjectCard key={i} {...p}/>)}</div>
         </section>
       </div>
     </main>

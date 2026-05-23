@@ -1,7 +1,13 @@
-import data from '../data/siteData.json';
+import { useFetch } from '../hooks/useFetch';
+import Loader, { ErrorMsg } from '../components/Loader';
 
 export default function Contact() {
-  const { profile } = data;
+  const { data: profile, loading, error } = useFetch('/api/profile');
+
+  if (loading) return <Loader />;
+  if (error)   return <ErrorMsg message={error} />;
+  if (!profile) return null;
+
   return (
     <main className="min-h-screen bg-gray-50 py-10 px-4">
       <div className="max-w-4xl mx-auto">

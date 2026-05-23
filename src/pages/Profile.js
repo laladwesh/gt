@@ -1,4 +1,5 @@
-import data from '../data/siteData.json';
+import { useFetch } from '../hooks/useFetch';
+import Loader, { ErrorMsg } from '../components/Loader';
 
 function SectionHeader({ title }) {
   return (
@@ -10,7 +11,15 @@ function SectionHeader({ title }) {
 }
 
 export default function Profile() {
-  const { qualifications, experience, profile } = data;
+  const { data: profile,        loading: l1, error: e1 } = useFetch('/api/profile');
+  const { data: qualifications, loading: l2, error: e2 } = useFetch('/api/qualifications');
+  const { data: experience,     loading: l3, error: e3 } = useFetch('/api/experience');
+
+  if (l1 || l2 || l3) return <Loader />;
+  const err = e1 || e2 || e3;
+  if (err) return <ErrorMsg message={err} />;
+  if (!profile || !qualifications || !experience) return null;
+
   return (
     <main className="min-h-screen bg-gray-50 py-10 px-4">
       <div className="max-w-5xl mx-auto">

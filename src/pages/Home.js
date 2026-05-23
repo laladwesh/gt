@@ -1,5 +1,6 @@
-﻿import { Link } from 'react-router-dom';
-import data from '../data/siteData.json';
+import { Link } from 'react-router-dom';
+import { useFetch } from '../hooks/useFetch';
+import Loader, { ErrorMsg } from '../components/Loader';
 
 function ResearchIcon({ iconKey, className }) {
   const cls = className || 'w-7 h-7 text-gray-500';
@@ -15,7 +16,13 @@ function ResearchIcon({ iconKey, className }) {
 }
 
 export default function Home() {
-  const { home, profile } = data;
+  const { data: home,    loading: l1, error: e1 } = useFetch('/api/home');
+  const { data: profile, loading: l2, error: e2 } = useFetch('/api/profile');
+
+  if (l1 || l2) return <Loader />;
+  if (e1 || e2) return <ErrorMsg message={e1 || e2} />;
+  if (!home || !profile) return null;
+
   return (
     <main className="min-h-screen bg-gray-50">
       <section className="bg-gradient-to-br from-primary-900 via-primary-800 to-primary-700 text-white py-16 px-4">
@@ -55,7 +62,7 @@ export default function Home() {
             <div className="w-16 h-1 bg-accent-500 mx-auto rounded"></div>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-            {home.researchAreas.map((area) => (
+            {(home.researchAreas || []).map((area) => (
               <div key={area.title} className="bg-gray-50 border border-gray-100 rounded-xl p-5 hover:shadow-md hover:border-primary-200 hover:bg-primary-50 transition-all duration-200 group">
                 <div className="mb-3"><ResearchIcon iconKey={area.iconKey} className="w-7 h-7 text-gray-500 group-hover:text-primary-600 transition-colors"/></div>
                 <h3 className="font-semibold text-gray-800 text-sm group-hover:text-primary-800 leading-tight mb-1">{area.title}</h3>
@@ -105,7 +112,7 @@ export default function Home() {
       <section className="bg-primary-900 text-white py-10 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            {home.stats.map((stat) => (
+            {(home.stats || []).map((stat) => (
               <div key={stat.label}>
                 <div className="text-3xl font-bold text-accent-500 mb-1">{stat.number}</div>
                 <div className="text-primary-300 text-sm">{stat.label}</div>

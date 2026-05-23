@@ -1,4 +1,5 @@
-import data from '../data/siteData.json';
+import { useFetch } from '../hooks/useFetch';
+import Loader, { ErrorMsg } from '../components/Loader';
 
 function DownloadCard({ name, description, link }) {
   return (
@@ -25,7 +26,14 @@ function DownloadCard({ name, description, link }) {
 }
 
 export default function Download() {
-  const { downloads } = data;
+  const { data: downloads, loading, error } = useFetch('/api/downloads');
+
+  if (loading) return <Loader />;
+  if (error)   return <ErrorMsg message={error} />;
+  if (!downloads) return null;
+
+  const software = downloads.software || [];
+
   return (
     <main className="min-h-screen bg-gray-50 py-10 px-4">
       <div className="max-w-4xl mx-auto">
@@ -61,7 +69,7 @@ export default function Download() {
           </div>
           <p className="text-sm text-gray-500 mb-5">For the completion of some course projects, you may need the following open-source software tools:</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {downloads.software.map((s) => <DownloadCard key={s.name} {...s}/>)}
+            {software.map((s) => <DownloadCard key={s.name} {...s}/>)}
           </div>
         </section>
         <div className="mt-10 bg-blue-50 border border-blue-200 rounded-xl p-5 flex items-start gap-3">

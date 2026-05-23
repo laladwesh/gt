@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import data from '../data/siteData.json';
+import { useFetch } from '../hooks/useFetch';
+import Loader, { ErrorMsg } from '../components/Loader';
 
 function AwardBadge({ label }) {
   return (
@@ -26,9 +27,8 @@ function TypeBadge({ label }) {
 function PubItem({ index, authors, title, venue, year, pages, volume, issue, doi, note, award, type }) {
   const details = [];
   if (volume) details.push(`Vol. ${volume}`);
-  if (issue) details.push(`Issue ${issue}`);
-  if (pages) details.push(`Pages ${pages}`);
-
+  if (issue)  details.push(`Issue ${issue}`);
+  if (pages)  details.push(`Pages ${pages}`);
   return (
     <div className="flex gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors group border border-transparent hover:border-gray-100">
       <span className="shrink-0 w-7 h-7 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center text-xs font-bold group-hover:bg-primary-200 transition-colors">{index}</span>
@@ -40,43 +40,41 @@ function PubItem({ index, authors, title, venue, year, pages, volume, issue, doi
         {doi && (
           <p className="text-xs text-gray-500 mt-0.5 break-all">
             DOI:{' '}
-            <a
-              href={`https://doi.org/${doi.replace(/^https?:\/\/doi\.org\//i, '').replace(/^doi:\s*/i, '')}`}
-              target="_blank"
-              rel="noreferrer"
-              className="text-primary-700 hover:underline"
-            >
-              {doi}
-            </a>
+            <a href={`https://doi.org/${doi.replace(/^https?:\/\/doi\.org\//i, '').replace(/^doi:\s*/i, '')}`} target="_blank" rel="noreferrer" className="text-primary-700 hover:underline">{doi}</a>
           </p>
         )}
-        {note && <p className="text-xs text-gray-500 mt-0.5">{note}</p>}
+        {note  && <p className="text-xs text-gray-500 mt-0.5">{note}</p>}
         {award && <AwardBadge label={award}/>}
-        {type && <TypeBadge label={type}/>}
+        {type  && <TypeBadge  label={type}/>}
       </div>
     </div>
   );
 }
 
 export default function Publications() {
-  const { publications } = data;
-  const tabs = [
-    { key: 'journals',     label: 'Journal Papers',    count: publications.journals.length },
-    { key: 'conferences',  label: 'Conference Papers',  count: publications.conferences.length },
-    { key: 'books',        label: 'Books',              count: publications.books.length },
-    { key: 'bookChapters', label: 'Book Chapters',      count: publications.bookChapters.length },
-    { key: 'patents',      label: 'Patents',            count: publications.patents.length },
-    { key: 'shortPapers',  label: 'Short Papers',       count: publications.shortPapers.length },
-  ];
+  const { data: publications, loading, error } = useFetch('/api/publications');
   const [activeTab, setActiveTab] = useState('journals');
 
+  if (loading) return <Loader />;
+  if (error)   return <ErrorMsg message={error} />;
+  if (!publications) return null;
+
+  const tabs = [
+    { key: 'journals',     label: 'Journal Papers',   count: (publications.journals     || []).length },
+    { key: 'conferences',  label: 'Conference Papers', count: (publications.conferences  || []).length },
+    { key: 'books',        label: 'Books',             count: (publications.books        || []).length },
+    { key: 'bookChapters', label: 'Book Chapters',     count: (publications.bookChapters || []).length },
+    { key: 'patents',      label: 'Patents',           count: (publications.patents      || []).length },
+    { key: 'shortPapers',  label: 'Short Papers',      count: (publications.shortPapers  || []).length },
+  ];
+
   const renderTab = () => {
-    if (activeTab === 'journals')     return publications.journals.map((p,i)     => <PubItem key={i} index={i+1} {...p}/>);
-    if (activeTab === 'conferences')  return publications.conferences.map((p,i)  => <PubItem key={i} index={i+1} {...p}/>);
-    if (activeTab === 'books')        return publications.books.map((p,i)        => <PubItem key={i} index={i+1} {...p}/>);
-    if (activeTab === 'bookChapters') return publications.bookChapters.map((p,i) => <PubItem key={i} index={i+1} {...p}/>);
-    if (activeTab === 'shortPapers')  return publications.shortPapers.map((p,i)  => <PubItem key={i} index={i+1} {...p}/>);
-    if (activeTab === 'patents') return publications.patents.map((p,i) => (
+    if (activeTab === 'journals')     return (publications.journals     || []).map((p,i) => <PubItem key={i} index={i+1} {...p}/>);
+    if (activeTab === 'conferences')  return (publications.conferences  || []).map((p,i) => <PubItem key={i} index={i+1} {...p}/>);
+    if (activeTab === 'books')        return (publications.books        || []).map((p,i) => <PubItem key={i} index={i+1} {...p}/>);
+    if (activeTab === 'bookChapters') return (publications.bookChapters || []).map((p,i) => <PubItem key={i} index={i+1} {...p}/>);
+    if (activeTab === 'shortPapers')  return (publications.shortPapers  || []).map((p,i) => <PubItem key={i} index={i+1} {...p} type={p.paperType}/>);
+    if (activeTab === 'patents') return (publications.patents || []).map((p,i) => (
       <div key={i} className="flex gap-3 p-3 rounded-lg hover:bg-gray-50 border border-transparent hover:border-gray-100 transition-colors group">
         <span className="shrink-0 w-7 h-7 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center text-xs font-bold group-hover:bg-primary-200 transition-colors">{i+1}</span>
         <div>
