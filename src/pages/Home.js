@@ -29,11 +29,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <blockquote className="text-xl md:text-2xl font-light italic text-primary-200 max-w-2xl mx-auto leading-relaxed">
-              <span className="text-4xl text-accent-500 font-serif leading-none">&ldquo;</span>
+              <span className="text-4xl text-accent-500 font-serif leading-none"></span>
               {home.quote}
-              <span className="text-4xl text-accent-500 font-serif leading-none">&rdquo;</span>
+              <span className="text-4xl text-accent-500 font-serif leading-none"></span>
             </blockquote>
-            <p className="mt-3 text-primary-300 text-sm font-medium tracking-widest uppercase">&mdash; {home.quoteAuthor}</p>
+            <p className="mt-3 text-primary-300 text-sm font-medium tracking-widest uppercase"> {home.quoteAuthor}</p>
           </div>
           <div className="flex flex-col md:flex-row items-center gap-10 bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
             <div className="shrink-0">
