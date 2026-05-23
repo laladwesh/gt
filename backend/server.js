@@ -224,7 +224,7 @@ const app = express();
 app.use(admin.options.rootPath, adminRouter);
 
 app.use(cors({
-  origin:      process.env.CLIENT_URL || 'http://localhost:3000',
+  origin:      true,
   credentials: true,
 }));
 app.use(express.json());
