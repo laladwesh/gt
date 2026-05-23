@@ -32,7 +32,8 @@ const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/trivedi';
 const localPath  = join(__dirname, './data/siteData.json');
 const srcPath    = join(__dirname, '../src/data/siteData.json');
 const jsonPath   = existsSync(localPath) ? localPath : srcPath;
-const raw  = readFileSync(jsonPath, 'utf-8');
+// Strip UTF-8 BOM (﻿) if present — siteData.json is saved with BOM
+const raw  = readFileSync(jsonPath, 'utf-8').replace(/^﻿/, '');
 const data = JSON.parse(raw);
 
 async function seed() {
