@@ -40,25 +40,24 @@ async function seed() {
   await mongoose.connect(MONGO_URI);
   console.log('✅ Connected to MongoDB');
 
-  // ── Clear all collections ────────────────────────────────────────────────────
-  await Promise.all([
-    Profile.deleteMany({}),
-    HomeSettings.deleteMany({}),
-    Qualification.deleteMany({}),
-    Experience.deleteMany({}),
-    AcademicsSettings.deleteMany({}),
-    InvitedTalk.deleteMany({}),
-    VisitingFaculty.deleteMany({}),
-    ConferenceOrganized.deleteMany({}),
-    FDP.deleteMany({}),
-    WorkshopConducted.deleteMany({}),
-    TrainingConducted.deleteMany({}),
-    Publication.deleteMany({}),
-    Project.deleteMany({}),
-    Student.deleteMany({}),
-    Download.deleteMany({}),
-  ]);
-  console.log('🗑  Cleared all collections');
+  // ── Skip if database already has data (preserve admin panel changes) ─────────
+  const existing = await Profile.countDocuments();
+  if (existing > 0 && process.env.FORCE_SEED !== 'true') {
+    console.log('⏭  Database already seeded — skipping. Run "npm run seed:force" to override.');
+    await mongoose.disconnect();
+    return;
+  }
+  if (existing > 0) {
+    console.log('⚠️  FORCE_SEED=true — clearing all collections and re-seeding...');
+    await Promise.all([
+      Profile.deleteMany({}), HomeSettings.deleteMany({}), Qualification.deleteMany({}),
+      Experience.deleteMany({}), AcademicsSettings.deleteMany({}), InvitedTalk.deleteMany({}),
+      VisitingFaculty.deleteMany({}), ConferenceOrganized.deleteMany({}), FDP.deleteMany({}),
+      WorkshopConducted.deleteMany({}), TrainingConducted.deleteMany({}),
+      Publication.deleteMany({}), Project.deleteMany({}), Student.deleteMany({}), Download.deleteMany({}),
+    ]);
+  }
+  console.log('🌱 Seeding from siteData.json...');
 
   // ── 1. Profile ───────────────────────────────────────────────────────────────
   await Profile.create(data.profile);

@@ -11,7 +11,7 @@ export default function Footer() {
               <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-primary-900 font-bold text-sm">GT</div>
               <div>
                 <p className="font-bold text-white">Dr. Gaurav Trivedi</p>
-                <p className="text-primary-300 text-sm">Associate Professor</p>
+                <p className="text-primary-300 text-sm">Professor</p>
               </div>
             </div>
             <p className="text-primary-300 text-sm leading-relaxed">

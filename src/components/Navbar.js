@@ -24,7 +24,7 @@ export default function Navbar() {
             <div className="w-9 h-9 rounded-full bg-primary-700 flex items-center justify-center text-white font-bold text-sm">GT</div>
             <div className="hidden sm:block">
               <p className="text-sm font-bold text-primary-900 leading-tight">Dr. Gaurav Trivedi</p>
-              <p className="text-xs text-gray-500 leading-tight">Associate Professor, IIT Guwahati</p>
+              <p className="text-xs text-gray-500 leading-tight">Professor, IIT Guwahati</p>
             </div>
           </NavLink>
 
